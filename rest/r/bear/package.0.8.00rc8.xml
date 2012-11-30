@@ -1,0 +1,2110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>BEAR</name>
+ <channel>pear.bear-project.net</channel>
+ <summary>PHP Framework Package</summary>
+ <description>BEAR is web application framework package.</description>
+ <lead>
+  <name>Koriyama</name>
+  <user>koriyama</user>
+  <email>koriyama@users.sourceforge.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-12-07</date>
+ <time>18:07:32</time>
+ <version>
+  <release>0.8.00rc8</release>
+  <api>0.8.00rc8</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+ <notes>
+Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="c1097582b66a8e25ee5ec4bcfad363e4" name="BEAR/Agent/Adaptor/Andoroid.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f40e1e69048bf442bef23fb0c7ac07e8" name="BEAR/Agent/Adaptor/Default.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5631ec9fb3f26266bab974e05911de1b" name="BEAR/Agent/Adaptor/Docomo.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="94d357c059beb158ed2941e4b77d3d41" name="BEAR/Agent/Adaptor/Dsi.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e435252211847c1a8a50c9f8dbc2148f" name="BEAR/Agent/Adaptor/Ezweb.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b13a2848ee11b51c4b4f50f0005224d" name="BEAR/Agent/Adaptor/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e1040fd3fc6f654b90cd4438ef094a77" name="BEAR/Agent/Adaptor/Iphone.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="9bb1f585ce99e469996cdae7b9602511" name="BEAR/Agent/Adaptor/Mobile.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f1d41f38517376650ab74452c6d12556" name="BEAR/Agent/Adaptor/Softbank.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="27df096528fc66680f44874c0dadb0f8" name="BEAR/Agent/Adaptor/Wii.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6b6b39a5713ee7f39e943992ba209988" name="BEAR/Agent/Adaptor.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="151962253ed766e68ea497dd60caf47b" name="BEAR/Agent/Injector.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="eab099f3c2a83cc18d95c699a183d0c8" name="BEAR/Annotation/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0a20c5b94dede43b7e67d025fa4e8a3e" name="BEAR/Aspect/After/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="16477d81a0c51e9cdee5c769fa317733" name="BEAR/Aspect/Around/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ad674ed69100f2ee38e6b9f3079db0b9" name="BEAR/Aspect/Before/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="780941a1e671b40c025c028ee116bdbb" name="BEAR/Aspect/Return/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b34b5bb51aa24c4e97037f298548c8c4" name="BEAR/Aspect/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d32a1afd8b0c804cbbd13f7e600320e6" name="BEAR/Aspect/JoinPoint.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="abcc484581853467c5689d491769a624" name="BEAR/Aspect/Weaver.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ccef3dde2cbdf39ae7e0301a9ebd95ee" name="BEAR/Base/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="aeae9481da4d9f7c1f277bddbad06c67" name="BEAR/BEAR/bin/bear.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="526bd82340c8973d8daea533f000349e" name="BEAR/BEAR/bin/bear.sh" role="script">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5f230a32867825b4d27c9f347c887626" name="BEAR/BEAR/bear.yml" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5fba196f4d447ab950e74d98c22124b3" name="BEAR/BEAR/debug.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e2c8cbecd163f31383cb4a839978cfc0" name="BEAR/BEAR/live.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a6b7dc4850f9d93884bd3c59a5206f81" name="BEAR/Cache/Adapter/Apc.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8a4b1679163c41702b8a895690b5ae87" name="BEAR/Cache/Adapter/Lite.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="975b42287a4a07854563aeb7014a30a1" name="BEAR/Cache/Adapter/Memcache.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b529acc508632fb86472f64a8a13fe63" name="BEAR/Cache/Adapter/None.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="41c438db95aa801fcd68bebcb80e24dc" name="BEAR/Cache/Adapter.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="289ca47c204846d6f94acd18efaed770" name="BEAR/Cache/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7d9615a1cfb64bdb17847cc87fde88f8" name="BEAR/Dev/Shell.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e5d71c4bd653d7e02eb4eb982f4b507e" name="BEAR/Dev/Util.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4067fc2dc145f4f13a5e650e57be28e5" name="BEAR/doc/LICENCE.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="54f3db6f8b03ece4d7b1c12541836c7e" name="BEAR/Emoji/Conf/Default.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="3394376847c6cce7e747febf14192248" name="BEAR/Emoji/Conf/Docomo.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1dd3008a3af850f665353007fd739ee4" name="BEAR/Emoji/Conf/Ezweb.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7bb0e3ac45d03822c3851aff09279da4" name="BEAR/Emoji/Conf/Softbank.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="645d9dcbfb1cdebde6f0cf323fad070e" name="BEAR/Emoji/Map.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ae159558aab35dc66efe76c851c65bb1" name="BEAR/Error/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b92d173a97adfdaeda93d7ff7693d639" name="BEAR/Form/Renderer/Andoroid.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c772d43715ed848c5222dc64cd923f72" name="BEAR/Form/Renderer/Default.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="abb0eda708e8b3e639db11ee27476f98" name="BEAR/Form/Renderer/Docomo.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="35e64bdf512391089deee83ba9770d40" name="BEAR/Form/Renderer/Ezweb.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b6e53f47979787dd7ba303d451831ae7" name="BEAR/Form/Renderer/Iphone.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="77bbbe56f6204670a84fd5b9e692b76f" name="BEAR/Form/Renderer/Mobile.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8204f1cf9c4e8094aec9cf4837f1ecb4" name="BEAR/Form/Renderer/Softbank.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e7898ac9249b20dd8a56783eb22348b7" name="BEAR/Img/Adapter/Cairo.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2db34c378e58cde6ac3675d84b0680a3" name="BEAR/Img/Adapter/GD.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7ca610113e46185f0f093d5fd730ed53" name="BEAR/Img/Adapter/Magick.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="055da5116d36c90e982b4bbb27aa6800" name="BEAR/Img/Adapter.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c69ef4e0c821fe0062eb646b2217c3c8" name="BEAR/Img/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="51f85526f094d57ff050a384fb11dc56" name="BEAR/inc/jquery/jquery-1.3.1.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5d4c7816890f3308da6126f5fa65c979" name="BEAR/inc/jquery/jquery-1.3.1.min.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="db6ca3b489bbaeb37338b94da7f67781" name="BEAR/inc/Smarty/libs/internals/core.assemble_plugin_filepath.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ca7a1fb7b9b1e1e6fd03040ad294d62" name="BEAR/inc/Smarty/libs/internals/core.assign_smarty_interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="24f78e7b0d075820717e0baec8749734" name="BEAR/inc/Smarty/libs/internals/core.create_dir_structure.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e526d4991538ec4a5f478985ba5c1cdc" name="BEAR/inc/Smarty/libs/internals/core.display_debug_console.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="59da5f01c6f09f3ac9e6a410d46cf907" name="BEAR/inc/Smarty/libs/internals/core.get_include_path.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6b64c963f85ea98b3ffe6dd2da8a8f2e" name="BEAR/inc/Smarty/libs/internals/core.get_microtime.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ec5d8b34ed53baeefb2561fd7d69c4ea" name="BEAR/inc/Smarty/libs/internals/core.get_php_resource.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f09ae048f46aca14c55140493d6964ad" name="BEAR/inc/Smarty/libs/internals/core.is_secure.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="00f693146a63796e196f4e0c796a62df" name="BEAR/inc/Smarty/libs/internals/core.is_trusted.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4e80a929066f35dacd02e676ae39fb32" name="BEAR/inc/Smarty/libs/internals/core.load_plugins.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="87f263cee1fe7fc5bc3b8611e280e618" name="BEAR/inc/Smarty/libs/internals/core.load_resource_plugin.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="14bdcd02bc206401c98447e4a18396f7" name="BEAR/inc/Smarty/libs/internals/core.process_cached_inserts.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e055d356b1c95981b3dbc1344a5900e7" name="BEAR/inc/Smarty/libs/internals/core.process_compiled_include.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="765351e73ddc4bd20a8d1b41d7978e96" name="BEAR/inc/Smarty/libs/internals/core.read_cache_file.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="be08c3cd20fe064283a3ff074fd7ae94" name="BEAR/inc/Smarty/libs/internals/core.rmdir.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d3fbd4411106fd16cea170f1dfd7a58f" name="BEAR/inc/Smarty/libs/internals/core.rm_auto.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7c4a185422c71583cd8e0e6f905fc8dc" name="BEAR/inc/Smarty/libs/internals/core.run_insert_handler.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="68c3e27167f6ed87f4c125c6e57aedd3" name="BEAR/inc/Smarty/libs/internals/core.smarty_include_php.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2fe1ceb9d7b6773a3b62a246dff02a8a" name="BEAR/inc/Smarty/libs/internals/core.write_cache_file.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8d0f7f7dca7bfb7bf0a258f9b26c2d99" name="BEAR/inc/Smarty/libs/internals/core.write_compiled_include.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7abebc1961d049aa557abc0456920570" name="BEAR/inc/Smarty/libs/internals/core.write_compiled_resource.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a49054fe8c0fa6e075ead43479c53409" name="BEAR/inc/Smarty/libs/internals/core.write_file.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e6fd76670a1eff30a5231ac24fc24e6f" name="BEAR/inc/Smarty/libs/plugins/block.textformat.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="cefaa28a80906512d028059901a4898e" name="BEAR/inc/Smarty/libs/plugins/compiler.assign.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="451147afe918838bf416a684f4e75272" name="BEAR/inc/Smarty/libs/plugins/function.assign_debug_info.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f03e51d3a9399b8936829a0bacad4528" name="BEAR/inc/Smarty/libs/plugins/function.config_load.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4a6f868c74488a0e97b8bb6169671387" name="BEAR/inc/Smarty/libs/plugins/function.counter.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="37932e1510989581e1c91cd04ad495b7" name="BEAR/inc/Smarty/libs/plugins/function.cycle.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1f5b1b784b8e4f85f03e8ac95ead8258" name="BEAR/inc/Smarty/libs/plugins/function.debug.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c23e8ae6e0ba6d147b3f49ba8a342847" name="BEAR/inc/Smarty/libs/plugins/function.eval.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="86e7738c8634897f32690515d4c369da" name="BEAR/inc/Smarty/libs/plugins/function.fetch.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2ab82a7bcf24b5d4a40e1d0a631f37df" name="BEAR/inc/Smarty/libs/plugins/function.html_checkboxes.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7876a563882220b7667aaf9c7f3adc42" name="BEAR/inc/Smarty/libs/plugins/function.html_image.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="317cf792bc651a60618b336492ce2d12" name="BEAR/inc/Smarty/libs/plugins/function.html_options.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7a7287360c53c8659187e66d26939d9d" name="BEAR/inc/Smarty/libs/plugins/function.html_radios.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="441c0d2e5febec7414e6edde3ebacea4" name="BEAR/inc/Smarty/libs/plugins/function.html_select_date.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2e004115c49e829aa8601fff2b596041" name="BEAR/inc/Smarty/libs/plugins/function.html_select_time.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a6c9fcb7e7532f4389d0420a6b6c68e6" name="BEAR/inc/Smarty/libs/plugins/function.html_table.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0c4ac110879450d12b969a72255993fc" name="BEAR/inc/Smarty/libs/plugins/function.mailto.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="503028180ae71d7804f8438e35e9fb5d" name="BEAR/inc/Smarty/libs/plugins/function.math.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="37b37ab044a4286ac8807f92743147ce" name="BEAR/inc/Smarty/libs/plugins/function.popup.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="55f59557dffbd9ab95db992ac4ce62be" name="BEAR/inc/Smarty/libs/plugins/function.popup_init.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="739dde580f43509342f504ae78136717" name="BEAR/inc/Smarty/libs/plugins/modifier.capitalize.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="605e45c9f5232c6c6693c5b84d29e4b4" name="BEAR/inc/Smarty/libs/plugins/modifier.cat.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="77e2f2b1595c777fd185a408e1bb0238" name="BEAR/inc/Smarty/libs/plugins/modifier.count_characters.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c883e908d3f33b9b50407f7d7771d152" name="BEAR/inc/Smarty/libs/plugins/modifier.count_paragraphs.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="14e4ef799f7fa3a5107a2af1091ab5e9" name="BEAR/inc/Smarty/libs/plugins/modifier.count_sentences.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f1ffb57f5a373699f209e310c0066a6a" name="BEAR/inc/Smarty/libs/plugins/modifier.count_words.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8477dd74f7247e2c1c659c038d91f923" name="BEAR/inc/Smarty/libs/plugins/modifier.date_format.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c7ab2659459fc86066401df6fcd7f548" name="BEAR/inc/Smarty/libs/plugins/modifier.debug_print_var.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1683d1e99e637cfaf7427cdf47a665fb" name="BEAR/inc/Smarty/libs/plugins/modifier.default.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0c00c3bfb89181cd5b889311a300a1cf" name="BEAR/inc/Smarty/libs/plugins/modifier.escape.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d178823ea6c9a4253ce0851414ee84a7" name="BEAR/inc/Smarty/libs/plugins/modifier.indent.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce1643c414b6a659e96218079c2968fd" name="BEAR/inc/Smarty/libs/plugins/modifier.lower.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="03840c6e77ba83f1c52fe2d1e2f9497c" name="BEAR/inc/Smarty/libs/plugins/modifier.nl2br.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="49843993fafcf89b2aa4b34a79cf0dbe" name="BEAR/inc/Smarty/libs/plugins/modifier.regex_replace.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="58f75b322ac3d29a08fc65667beb2c46" name="BEAR/inc/Smarty/libs/plugins/modifier.replace.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="93db419eae176615b031536ab7b1a9bd" name="BEAR/inc/Smarty/libs/plugins/modifier.spacify.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5cb7b6c2dcf8d4bfb20ad412c999e0c2" name="BEAR/inc/Smarty/libs/plugins/modifier.string_format.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="613286a28daed03566cae510f3676126" name="BEAR/inc/Smarty/libs/plugins/modifier.strip.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="58c3cd8402135903c944caaba5c6b08f" name="BEAR/inc/Smarty/libs/plugins/modifier.strip_tags.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1f14840e5e3919ef9b084f3dbc7f0f3b" name="BEAR/inc/Smarty/libs/plugins/modifier.truncate.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c04a62cd4f6d4f8408e05579e07e8025" name="BEAR/inc/Smarty/libs/plugins/modifier.upper.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e324e49d8bb17c5c79e9e9e69f5bffc9" name="BEAR/inc/Smarty/libs/plugins/modifier.wordwrap.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e832bcc353b63aa4fb60e7378785e912" name="BEAR/inc/Smarty/libs/plugins/outputfilter.trimwhitespace.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b095ea2f3789fc63c2366d0fdb7ec9ec" name="BEAR/inc/Smarty/libs/plugins/shared.escape_special_chars.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2225a6131f8c8e497e2daca10245adba" name="BEAR/inc/Smarty/libs/plugins/shared.make_timestamp.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c2bc1f88ebb8fbefcaf6f20beaa26e87" name="BEAR/inc/Smarty/libs/Config_File.class.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="def6c6e062941c8b2986f9f977b26307" name="BEAR/inc/Smarty/libs/debug.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6b6bff04ae1fcad7f4d692cbe90abce4" name="BEAR/inc/Smarty/libs/Smarty.class.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d1d0398392f9f2a78de7b54d93a6e612" name="BEAR/inc/Smarty/libs/Smarty_Compiler.class.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="68ad62c64cc6c620126241fd429e68fe" name="BEAR/inc/Smarty/COPYING.lib" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5edd783edf6bdff1f22cb878aa98aa11" name="BEAR/inc/Smarty/README" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc078d17510880bb8b0cc4454150ab63" name="BEAR/inc/spyc-0.2.5/CHANGES" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f9b9503f9a04aadd46e3f30e37a7833a" name="BEAR/inc/spyc-0.2.5/README" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0827e53ba0d6d7253db10f6564c805f0" name="BEAR/inc/spyc-0.2.5/spyc.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c26c1eeec7356bdd84dee1e621e93ad0" name="BEAR/inc/spyc-0.2.5/spyc.php4" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="14e1e38035022240435c0b00e36f60f7" name="BEAR/inc/spyc-0.2.5/spyc.yaml" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce0db6ceacccc72177b1e0f6b76fe64b" name="BEAR/inc/spyc-0.2.5/test.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4576b0f5457eb352f6c9cc740285b4a7" name="BEAR/inc/spyc-0.2.5/test.php5" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="790a3e2d7c5218d9dbcc37f78516f0b2" name="BEAR/inc/spyc-0.2.5/yaml-dump.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="86698e5ee679351635d1fa431274129f" name="BEAR/inc/spyc-0.2.5/yaml-load.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="58c3414ec5754fbcda641191282c7731" name="BEAR/inc/toInlineCSSDoCoMo/selectorToXPath.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d4a76a0c92368e0e24ce7fb1212e08e5" name="BEAR/inc/toInlineCSSDoCoMo/toInlineCSSDoCoMo.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f286ae893491242d2f8ed9f2b3ede297" name="BEAR/inc/debuglib.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4be6bdb33d7db7697faa4cc053528bba" name="BEAR/inc/LICENCE.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2d25b017e7da36f56aa5b4290740a118" name="BEAR/Injector/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="925d541423b89ccf54b8581b7f033d3d" name="BEAR/Main/Ua/Injector.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4e3f5536c13967ac5ba4524a3ea4b7f6" name="BEAR/Main/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="14c8a13d6a6c14d54b6ad9b6acb89f7c" name="BEAR/Page/Header/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="70f26304e09b53e8ebacac740d16c6e6" name="BEAR/Page/Ajax.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="acc2969e28b950041abd8426197f71e3" name="BEAR/Page/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="edad6a42a091eb02a05dce8c6bfa1f9d" name="BEAR/Page/Header.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c3dacdc05bfedb34a2629e5b77ca2bfc" name="BEAR/Query/Count.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a2c658de7c33f3f31e5228d5777ee331" name="BEAR/Query/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="61e51f67e438cf98ba646c6ad002b036" name="BEAR/Resource/Execute/Adaptor.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c88aefeb55ff27957d660d8fe172c7e1" name="BEAR/Resource/Execute/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="97d00c53d0d004472f97a61b124c362f" name="BEAR/Resource/Execute/Function.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e8c77e9e884f8f3973150658bf560fac" name="BEAR/Resource/Execute/Http.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ec4c1a4517adcd948075ebc777f67bbc" name="BEAR/Resource/Execute/Mock.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="fad8993d1106a012e85b1e6dbc863834" name="BEAR/Resource/Execute/Null.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1ec9a2ec1fc2fb016c51d3e845562a31" name="BEAR/Resource/Execute/Page.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="450527c938dcaf5cd46d2ae1eef9ab76" name="BEAR/Resource/Execute/Ro.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="9cbb30b5c904273209993cd934181a8c" name="BEAR/Resource/Execute/StaticFile.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6fde3cb62fa67acbe45043295dc31416" name="BEAR/Resource/output/ajax.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d62f8adac911b33f1aaa62d9cfa5cc07" name="BEAR/Resource/output/json.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7b23278a00d452e4ee71865f534aaf31" name="BEAR/Resource/output/php.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d7811a61c26477e87d725daebc57a9d7" name="BEAR/Resource/output/print.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e8121ade2811603499ce7a0e5d38bb2c" name="BEAR/Resource/output/rss.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4f1fff464ff46c24bbcad90b0780f566" name="BEAR/Resource/output/xml.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="76a8771e995dd86ea8ddd08d51e88def" name="BEAR/Resource/Request/Cache.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="79133cf954093e7b66d7080488c5071b" name="BEAR/Resource/Request/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="60ab54c76a66502424cedf57ed1d5646" name="BEAR/Resource/Request/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="525124e7d84939b2ffab3c23aa5de058" name="BEAR/Resource/Server/Client.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ace24f99645e27d45e0517a6a8f37f1d" name="BEAR/Resource/Server/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="044bb331850cd135b0fa2d88f413f566" name="BEAR/Resource/Server/Handler.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="81755707ba2ab6db5fa4ca931cfe67c1" name="BEAR/Resource/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6d84d0ce18b65571fd0ebf6a307f0e9f" name="BEAR/Resource/Execute.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="9a2662f1b5eb67167f72e081a23fb158" name="BEAR/Resource/Request.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6c5fc85eb3aa0f410e4af519ee5c8f6c" name="BEAR/Resource/Server.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="932b8dc46257d87081316c1bde68eba6" name="BEAR/Ro/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8a945381a0c00dae8ec144c8ff06b093" name="BEAR/Ro/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="eebc690ad877c0642ceff8261b7e0822" name="BEAR/Ro/Iterator.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="00b2d0d8a81fb76012dba5da20b0c13e" name="BEAR/Session/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="059fccfa05695792224a7fcefe71ef4b" name="BEAR/Smarty/config/emoji/E/emoji.conf" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="183d9c5195402804989df6049cd09419" name="BEAR/Smarty/config/emoji/H/emoji.conf" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0af21f4259fa57742807f9ca9e34bde2" name="BEAR/Smarty/config/emoji/I/emoji.conf" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="94f20a4fb864c2c0bed078b4a89194ec" name="BEAR/Smarty/config/emoji/N/emoji.conf" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7ce201b8bcd6fa1a0325bd7a9d9c588b" name="BEAR/Smarty/config/emoji/S/emoji.conf" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="85d55c7d507fd36955d17033d687224a" name="BEAR/Smarty/plugins/block.a.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d11c87d1a78ed4a1b0367ff26dfad10b" name="BEAR/Smarty/plugins/block.agent.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="87bbb2629438511453617d36cfcee187" name="BEAR/Smarty/plugins/block.timer.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0ef07952bf9edc525bb990af6df416c2" name="BEAR/Smarty/plugins/compiler.appinfo.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="68926abc52308e19eeb1b0711dd7af9c" name="BEAR/Smarty/plugins/compiler.emoji.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f68afc2936a34bcc8f16bf411cb408c0" name="BEAR/Smarty/plugins/modifier.mb_truncate.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6f2250e0fb14acb215e3c7b4a5333452" name="BEAR/Smarty/plugins/modifier.printa.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b6f7959cc39b60b0c6db231c8f4627a6" name="BEAR/Smarty/plugins/modifier.qferror.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8577d50b0074e8da7ee4a6cf509c6f9e" name="BEAR/Smarty/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="cc0c8441957f8a4f0976560896cc91ac" name="BEAR/View/Adaptor/Smarty.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1d08c1547ab9d8df9055d6de002749ff" name="BEAR/View/Adaptor.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e98c30dee51139ff058e637c3f2a1ee2" name="BEAR/View/Interface.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="37b8b0783ce7ee980fd57668b8cff9c0" name="BEAR/Advice.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="00c09a3d64bdc15f0c3ec642ea5b03fb" name="BEAR/Agent.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d1d89ddc761a0d93cf1ffc8fb537193c" name="BEAR/Annotation.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="910365bfb0866b47225eeca56ec4cb98" name="BEAR/Base.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="46a595faee5187cf0030ce82c8b128cc" name="BEAR/Cache.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ff86e10cd887a929ea2025de1f11f83a" name="BEAR/Client.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="40181d06b75c5acd85d27ce4a4d94dee" name="BEAR/Emoji.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2c58efd36148201c651433e7375d3829" name="BEAR/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5d10bc3637f5726f8eb1f62560ebb60e" name="BEAR/Factory.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="910beddab1755728b534ff3061b46526" name="BEAR/Form.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="392ccd71a5a5b7f8627d0024013b087f" name="BEAR/Img.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="3ffb139ce4e9e6233cd646c4221b87bc" name="BEAR/Log.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="773734662428ca97706551697a6da416" name="BEAR/Main.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e25c922b9f8212249797f2366faf592a" name="BEAR/Mdb2.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="02f6224a77eef234fe57f0f6dbea3da4" name="BEAR/Page.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5a43328952e21ebbc2ac273c7950c727" name="BEAR/Pager.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="3b803e4ef3291a8ab9d604f68e5fe6fa" name="BEAR/Query.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="34f8f848f12d1f27ca14d2b948e71f0b" name="BEAR/Resource.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="050712f24e8db00f7851575a34aff1a3" name="BEAR/Ro.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="532513bed17a1948785a50519583975e" name="BEAR/Session.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4f19c8b8b2e725a6b81c1f4f30e45d3b" name="BEAR/Smarty.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1b8f3ed4ae4e4d517519c24493c86c2e" name="BEAR/Util.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="af83c4692d3cf7565b377ba7a8e2d87b" name="BEAR/View.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="cde271a5c54ad6583936781d48860eb8" name="data/app/App/Aspect/Transaction.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d5ea75e58bb4e832f610d6e01e5db0ce" name="data/app/App/Form/Renderer/Default.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="be0c8ce5401964d8ac3340f07aa76e1e" name="data/app/App/Form/Renderer/Mobile.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ded6cd3b0b872ac3eb1d992683e207f2" name="data/app/App/Form/_untitled.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="537c620239824692ac2acf9859a32e0f" name="data/app/App/output/_untitiled.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="98b4825ce23d6e9ff9cc71abce7b4079" name="data/app/App/Resource/Execute/App.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="94b30feaf046d928cd045c4abb1ef0a2" name="data/app/App/Resource/_untitiled.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/App/smarty/configs/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/App/smarty/filters/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/App/smarty/plugins/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4cd366e9d8a31b3ce347d4312c3e5bb9" name="data/app/App/smarty/plugins/untitiledblock.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7a813f21217901050b07ea2090e8b3c1" name="data/app/App/smarty/plugins/untitledmodfier.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b02fbf17e59766e07edaf330fe1139c0" name="data/app/App/views/elements/app/http.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ec20972f0adaa829909586a312705b0a" name="data/app/App/views/elements/footer.mobile.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="9d4afb84b1de23f130d90214fad339b6" name="data/app/App/views/elements/footer.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d06bdbf3cacd0d0cc871574c42af064f" name="data/app/App/views/elements/header.mobile.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4aa0b70bbcf9a36e0a01762bdd39baed" name="data/app/App/views/elements/header.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1deeaaf040c639ee97e172ee60deb863" name="data/app/App/views/layouts/default.mobile.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b7a01c4fec96c47ad9e6411c55fe2f73" name="data/app/App/views/layouts/default.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f874543935cc7df8801ee08a240c98eb" name="data/app/App/views/pages/index.mobile.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a478e651a719d22eb4dfb15b5eae42fe" name="data/app/App/views/pages/index.tpl" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4c6b78b48fafabbac4fec3bb5ce6bd5a" name="data/app/App/views/pages/index.yml" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6d4b977f6662b435e0f919f22f834ef5" name="data/app/App/app.yml" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b785335d02c59b2775c49e598741fd8" name="data/app/App/Db.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="782278413d23337870ae35abe21fbd10" name="data/app/App/Main.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="846a482594b1e9bef7a15a418b4b372f" name="data/app/App/Page.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="669a7314c5f1950ccae63e29f8446c55" name="data/app/App/Ro.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/data/api/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e818995e4ad339db3e7058cb676c0bb3" name="data/app/data/dev.config.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="cc256295b25f1ca31fe98a51b6cedc07" name="data/app/htdocs/css/default.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d606bbd5340e1072e91060b6333fa7d0" name="data/app/htdocs/css/dhtml_form.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="fb089cfb6aed13d114b442b33e1fec34" name="data/app/htdocs/favicon.ico" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="877c5bad76d509c9f266d77556be2a24" name="data/app/htdocs/htaccess.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="426223a1bb14e0b2c8f03e704794933b" name="data/app/htdocs/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/logs/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/tmp/cache_lite/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/tmp/misc/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/tmp/session/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/tmp/smarty_cache/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/tmp/smarty_templates_c/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="data/app/tmp/upload/keepme.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e731c527617d54308a94b034742b55e7" name="data/app/App.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ff3f34bfa608d1033bfd2376893920a2" name="data/cli/server.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b296fbc3f12c9f725e8bf6fe38f7db85" name="data/docs/eclipse/BEAR Conventions.xml" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d2b8b57be65fa03888e7fccbe1d12aaa" name="data/docs/eclipse/PHPDocConfig.ini" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="26c0d1f26cbfc342fbd6fd2ece6ce6d2" name="data/docs/eclipse/svn_auto_property.xml" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="12d43819b26bca4014eababd05568667" name="data/docs/eclipse/templates.xml" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="00869372c3ee0ab00f9b9ca88cd3ef89" name="data/docs/sql/session.sql" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="42e17fe477ec4fc0084f6bf4e29700a3" name="data/docs/htaccess.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="66142f4ffeec06e08f2ab764f839b316" name="data/docs/phpdocumentor.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7b9776076d5fceef4993b55c9383dedd" name="data/htdocs/bear/image/loading.gif" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4b27d69e143699a3b22e1598b57282ba" name="data/htdocs/bear/image/warning.gif" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="23810a1a8a05871515d58ade0d96203f" name="data/htdocs/bear/app.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="261690a25abf3f41a72d44655628accb" name="data/htdocs/bear/jquery.bear.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="384772142d1907d7d3aea3ac11fad9d0" name="data/htdocs/bear/jquery.cookie.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5d4c7816890f3308da6126f5fa65c979" name="data/htdocs/bear/jquery.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="165f7496d3db693b005a508083e6cd5c" name="data/htdocs/bearinfo/bearinfo.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="36b59b2e0ee082bd9b074d55a98f4f92" name="data/htdocs/__bear/bearshell/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="86a764f592e92c11726fc9a18fbaada8" name="data/htdocs/__bear/bearshell/page.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1ccd53047d8cdca7a0d0b1a78d01c1ac" name="data/htdocs/__bear/bearshell/refresh.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2a1f2db6259b5359f3a37cec448a8ae9" name="data/htdocs/__bear/bearshell/shell.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="28b486e92f0d02a95f1c7a5e4050ce82" name="data/htdocs/__bear/code/CodeSniff.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="778ce7e100ac631eaa3d716143e479de" name="data/htdocs/__bear/code/home.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="48b55f59e73f10e2eb0e5b9c4acd7b72" name="data/htdocs/__bear/code/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0b8064e910a96b0f745fe27a09e39fea" name="data/htdocs/__bear/code/page.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f17878319a30e523a3e38b42a5756dd4" name="data/htdocs/__bear/code/source.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="fef52329ed2c4e8dd39fead947eafb43" name="data/htdocs/__bear/code/tab.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c60153fac40d15e3c6eba192d28f1f39" name="data/htdocs/__bear/css/bearshell.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b331d962bb342a22220e06cb55a69915" name="data/htdocs/__bear/css/debug.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="25083a47faf983ab937436e1c9c6f3d8" name="data/htdocs/__bear/css/default.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="95d18152ead0219afb13974f6c46bff4" name="data/htdocs/__bear/css/trace.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="fccad44ae3a052a09b2cf6b7440735d8" name="data/htdocs/__bear/img/reload.gif" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7aa555f1850d2584101e111ac8f05410" name="data/htdocs/__bear/info/pear/example.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5db38efed34870b71b5bcb2dce401b59" name="data/htdocs/__bear/info/pear/htaccess" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="66bdacf58d43d656ada1300dba4b14cc" name="data/htdocs/__bear/info/pear/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d2ae835e5bb5ae70b31e1213d8b97fa2" name="data/htdocs/__bear/info/phpinfo/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="29e27e34ad6d636c974979d47c5c649d" name="data/htdocs/__bear/info/apc.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="73e4e01fbe31a3518f2861c0f253b89c" name="data/htdocs/__bear/info/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="397a700879953be609439b2467999c4f" name="data/htdocs/__bear/info/memcache.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e2ff351b9c50f4431a39589ad31c94d9" name="data/htdocs/__bear/info/others.html" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="06e63a7d776bdfc7a7cf94c6a3b2d0f7" name="data/htdocs/__bear/info/tab.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8692e6efddf882acbff144c38ea7dfdf" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2a44fbdb7360c60122bcf6dcef0387d8" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f8f4558e0b92ff2cd6136781533902ec" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e5a8f32e28fd5c27bf0fed33c8a8b9b5" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c12c6510dad3ebfa64c8a30e959a2469" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="f4254356c2a8c9a383205ef2c4de22c4" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5a3be2d8fff8324d59aec3df7b0a0c83" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="72c593d16e998952cd8d798fee33c6f3" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a4127cef04012ee8681adef24d8e2a0f" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="89a6553a4bba879b4944ba11cf061e04" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="488f07fac2ec00ca851c4ff6640e0430" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ec07344d71ee10034427088ec6f3ca3" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="85eb7d511838b9bc089b7d6efd4ded92" name="data/htdocs/__bear/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="75da287cdd5f62241512530b899c6e7a" name="data/htdocs/__bear/jquery-ui/css/smoothness/jquery-ui-1.7.custom.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="bb381e2d19d8eace86b34d20759491a5" name="data/htdocs/__bear/jquery-ui/js/jquery-1.3.2.min.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6ca37843f30948f28c05bd28a22b509b" name="data/htdocs/__bear/jquery-ui/js/jquery-ui-1.7.custom.min.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="384772142d1907d7d3aea3ac11fad9d0" name="data/htdocs/__bear/jquery-ui/js/jquery.cookie.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1d497ccc9fef3229b406f8eec6a3a72b" name="data/htdocs/__bear/jquery-ui/index.html" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="734445402394809c538e1ead6a6ddea6" name="data/htdocs/__bear/js/app.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="02ee7594805fca143c29f981f0978f5c" name="data/htdocs/__bear/js/jquery.bear.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ed32e712c38e886ae0c4b4cfdb3f15d8" name="data/htdocs/__bear/log/extjs.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="73e4e01fbe31a3518f2861c0f253b89c" name="data/htdocs/__bear/log/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7fb9592b333259b7f74b451406c62495" name="data/htdocs/__bear/log/tab.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c97857a3b6213e4a45251008e81b9566" name="data/htdocs/__bear/prettify/prettify.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="581ded03eed97b5df051807e63d002fd" name="data/htdocs/__bear/prettify/prettify.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a039b543039c4d4218500acf29d3272d" name="data/htdocs/__bear/trace/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1e8dc39e292cd3c7c93cf507d02b92e5" name="data/htdocs/__bear/category.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1b32a114e49165a41b660fb3b061b961" name="data/htdocs/__bear/favicon.ico" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="20a3eee729f5c07db19e2aa712a400fa" name="data/htdocs/__bear/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7a2475c418c0b31560ca7c63afe9f397" name="data/htdocs/__edit/ajax/files.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a090ed9fae4bec0874e7d82b6682a517" name="data/htdocs/__edit/ajax/load.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="900a4a45d7f2fc6d5353ebbeef23db73" name="data/htdocs/__edit/ajax/save.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="fc517da02d6a64a68e5fea9a5de472f1" name="data/htdocs/__edit/jqueryFileTree/images/application.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c65fadae5a0fc27f401f1a00e66f518f" name="data/htdocs/__edit/jqueryFileTree/images/code.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="783f5b06082bf73e9d1eaf79d838162f" name="data/htdocs/__edit/jqueryFileTree/images/css.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="03e2b564224bfb58ff20904bda244043" name="data/htdocs/__edit/jqueryFileTree/images/db.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="fbd3929a893b147ae0940d48d533e023" name="data/htdocs/__edit/jqueryFileTree/images/directory.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="38af291953d5b90b0aee30dd0d2126a4" name="data/htdocs/__edit/jqueryFileTree/images/doc.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a3112ba7e266938321394347e2a6e107" name="data/htdocs/__edit/jqueryFileTree/images/file.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ad12582e3ca901894737c3dd44a5eb2" name="data/htdocs/__edit/jqueryFileTree/images/film.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="132a505684e7b7b91f50ea29c072112b" name="data/htdocs/__edit/jqueryFileTree/images/flash.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="bf30d89d69dddfbd8e5f805a199c407f" name="data/htdocs/__edit/jqueryFileTree/images/folder_open.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="12ace1a918403049a6d2fc152f53baec" name="data/htdocs/__edit/jqueryFileTree/images/html.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ac467ef8defc620b6b5eb80d2047bcb7" name="data/htdocs/__edit/jqueryFileTree/images/java.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="73c25b185fb78cc690675cd4a181ee0b" name="data/htdocs/__edit/jqueryFileTree/images/linux.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="bd2244ac282a5ada48b0d79cacc59426" name="data/htdocs/__edit/jqueryFileTree/images/music.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="5ee15843554004d12736f0404f8d443a" name="data/htdocs/__edit/jqueryFileTree/images/pdf.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="48cda2a2a54a31f7a666547c862c12e7" name="data/htdocs/__edit/jqueryFileTree/images/php.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d2040c34ba1ffd8fa5b72ab37be11eca" name="data/htdocs/__edit/jqueryFileTree/images/picture.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="8c366c11adee3cf2988614df4c96782b" name="data/htdocs/__edit/jqueryFileTree/images/ppt.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="787a96924e9b114e75f48b540ff480a2" name="data/htdocs/__edit/jqueryFileTree/images/psd.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="661505d2efc05b2347492e4949f564d5" name="data/htdocs/__edit/jqueryFileTree/images/ruby.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="13ad2158a4889c26a851f99b261e4c5c" name="data/htdocs/__edit/jqueryFileTree/images/script.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="9a8269421303631316be4ab5e34870e1" name="data/htdocs/__edit/jqueryFileTree/images/spinner.gif" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ce338a6001fe4993c23079c6a446bf31" name="data/htdocs/__edit/jqueryFileTree/images/tpl.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c642cdefdff913a56672525527b29dcd" name="data/htdocs/__edit/jqueryFileTree/images/tpl].png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0da66bdb013f9a9d12ce7219e642bc25" name="data/htdocs/__edit/jqueryFileTree/images/txt.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7363cb7630d1d4b441183345fd15ae62" name="data/htdocs/__edit/jqueryFileTree/images/xls.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2eba6780fc7d3663bc44808480c6bd8a" name="data/htdocs/__edit/jqueryFileTree/images/zip.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="71988a1e87c5913fda2f5e8aaad1a990" name="data/htdocs/__edit/jqueryFileTree/jqueryFileTree.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="54f4d5be8818e449f7e9ed47198d845f" name="data/htdocs/__edit/jqueryFileTree/jqueryFileTree.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c99e57c9a05a49b0c8529c548503f983" name="data/htdocs/__edit/jqueryFileTree/jqueryFileTree.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d6c764f98cb66d26fff74d8b6fd71a0f" name="data/htdocs/__edit/jqueryFileTree/tree.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a251a53a545c5d902fe645bc53ec9fd9" name="data/htdocs/__edit/favicon.ico" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2eac1fb70aaa1b6174fe7a2ec26ccb7e" name="data/htdocs/__edit/index.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2dba673431abe99323af0d2633454d70" name="data/htdocs/__edit/index.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="105d791a846df4a3d6df281931610624" name="data/htdocs/__edit/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="1489f6c4210089f5007d41efa3c1930c" name="data/htdocs/__edit/ini.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="741c9a6b3871b5e9e459674cae889c39" name="data/htdocs/__edit/init.js.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b59bb7b4e84e9d75fe3ff43fbf2309e" name="data/htdocs/__edit/jquery.easing.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="731360a1f91ac1e3aa625e9edb85498a" name="data/htdocs/__edit/label.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a854e47f794021974f4e0ea41be93a39" name="data/htdocs/__edit/Tree.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="69251ac507819ee1b994455b0ae3275c" name="data/htdocs/BEAR.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c9198fd9d68106ee5be724abfe8de5c3" name="data/htdocs/emoji.zip" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4abe348610d812ab91ad175bc92f73d5" name="data/phpdoc/beardoc.ini" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="7117bf1c7774e53982329b9dbe90bb8d" name="data/phpdoc/readme.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="284c7835766c51e8a50406b9a88e8f6e" name="docs/LICENCE.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="afac3be13bf2ecef930a3d8b7db2fa53" name="BEAR.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.6.0</min>
+   </pearinstaller>
+   <package>
+    <name>Panda</name>
+    <channel>pear.bear-project.net</channel>
+    <min>0.2.1</min>
+   </package>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>HTML_QuickForm</name>
+    <channel>pear.php.net</channel>
+    <min>3.2.5</min>
+   </package>
+   <package>
+    <name>HTML_QuickForm_Renderer_Tableless</name>
+    <channel>pear.php.net</channel>
+    <min>0.6.0</min>
+   </package>
+   <package>
+    <name>HTTP_Client</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.0</min>
+   </package>
+   <package>
+    <name>HTTP_Session2</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.2</min>
+   </package>
+   <package>
+    <name>Log</name>
+    <channel>pear.php.net</channel>
+    <min>1.9.3</min>
+   </package>
+   <package>
+    <name>Net_UserAgent_Mobile</name>
+    <channel>pear.php.net</channel>
+    <min>0.26.0</min>
+   </package>
+   <package>
+    <name>Pager</name>
+    <channel>pear.php.net</channel>
+    <min>2.3.6</min>
+   </package>
+   <package>
+    <name>Spreadsheet_Excel_Writer</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.0</min>
+   </package>
+   <package>
+    <name>XML_RPC</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.5</min>
+   </package>
+   <package>
+    <name>XML_Serializer</name>
+    <channel>pear.php.net</channel>
+    <min>0.18.0</min>
+   </package>
+   <package>
+    <name>I18N_UnicodeString</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.1</min>
+   </package>
+   <package>
+    <name>XML_RSS</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.10</min>
+   </package>
+   <package>
+    <name>MDB2</name>
+    <channel>pear.php.net</channel>
+    <min>2.4.0</min>
+   </package>
+   <package>
+    <name>MDB2_Driver_mysql</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.0</min>
+   </package>
+   <package>
+    <name>MDB2_Driver_mysqli</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.0</min>
+   </package>
+   <package>
+    <name>XML_RSS</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.2</min>
+   </package>
+   <package>
+    <name>Var_Dump</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.3</min>
+   </package>
+   <package>
+    <name>Text_Highlighter</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.1</min>
+   </package>
+   <package>
+    <name>Config</name>
+    <channel>pear.php.net</channel>
+    <min>1.10.0</min>
+   </package>
+   <package>
+    <name>File</name>
+    <channel>pear.php.net</channel>
+    <min>1.3.0</min>
+   </package>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.6</min>
+   </package>
+   <package>
+    <name>Console_Color</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.2</min>
+   </package>
+   <package>
+    <name>Console_Table</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+   <package>
+    <name>File_SearchReplace</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.2</min>
+   </package>
+   <package>
+    <name>HTTP_Request2</name>
+    <channel>pear.php.net</channel>
+    <min>0.3.0</min>
+   </package>
+   <package>
+    <name>HTML_CSS</name>
+    <channel>pear.php.net</channel>
+    <min>1.5.4</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>PEAR_PackageFileManager2</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>PhpDocumentor</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.2</min>
+   </package>
+   <package>
+    <name>PHP_CodeSniffer</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="bear" name="BEAR/BEAR/bin/bear.sh" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.8.00rc8</release>
+    <api>0.8.00rc8</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-12-07</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>

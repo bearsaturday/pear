@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Panda</name>
+ <channel>pear.bear-project.net</channel>
+ <summary>Panda PHP Error handler</summary>
+ <description>Panda is PHP Error handler and debug/trace print utility.</description>
+ <lead>
+  <name>Koriyama</name>
+  <user>koriyama</user>
+  <email>koriyama@users.sourceforge.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-02-16</date>
+ <time>21:39:49</time>
+ <version>
+  <release>0.2.6</release>
+  <api>0.2.6</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+ <notes>
+Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="d2277baf26ca6dd50585fc5515aea5d1" name="data/htdocs/panda_sample/default.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="72af05209a559ed41287281b46dc0fc9" name="data/htdocs/panda_sample/fatal_error.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a0237c5176d0a297f2ae4034ec3d727f" name="data/htdocs/panda_sample/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="aa8d6182f4d7bc215a9e143359302410" name="data/htdocs/panda_sample/index.view.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="3cf446d5ff1b74c1f5e9b900b860a7c4" name="data/htdocs/panda_sample/memory_error.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="c5fea09652dbccccdd360c716255505b" name="data/htdocs/panda_sample/panda_exception.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b541554fb8040c4800cfcfef4c767327" name="data/htdocs/panda_sample/panda_ini.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="188adb2418b3aef10ab10acabaa83e7c" name="data/htdocs/panda_sample/pear_error.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4f4eeabb146db5e77be80fa51f1d2ada" name="data/htdocs/panda_sample/uncaught_exception.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b86cb94f7d0819adb5d3e8121cb878e9" name="data/htdocs/panda_sample/utility.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="079e958cbdfc1656b39432e7e5f22dbf" name="data/htdocs/__panda/css/debug.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="882e7ec204eb26acdccd367ab97948ff" name="data/htdocs/__panda/css/default.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="916fecc65b3dbd81002994fa746feeaa" name="data/htdocs/__panda/css/trace.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="feb9cc3120cbde4644f37dfa57d02fe2" name="data/htdocs/__panda/css/trace.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a251a53a545c5d902fe645bc53ec9fd9" name="data/htdocs/__panda/edit/favicon.ico" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="a67f166177e95a971462cdd7b4f3ed03" name="data/htdocs/__panda/edit/index.css" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="08fcf8cc5a836229f414ad5fe6a25feb" name="data/htdocs/__panda/edit/index.js" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0738932bdb4c01b946f8318c09015a28" name="data/htdocs/__panda/edit/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ba00a0757d4d01e350d79b141ac1d5e3" name="data/htdocs/__panda/edit/save.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="479231bdb62b1745504a98deb71807d2" name="data/htdocs/__panda/edit/view.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4ee903cf66149738bb5c96cd441d5e99" name="data/htdocs/__panda/image/bespin.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e57095a982bb8e6420254f05be5f461e" name="data/htdocs/__panda/image/textmate.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="ef5350eba0355e5e5e95c5d260eed332" name="data/htdocs/__panda/inc/debuglib.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="282e5b2e1e2efb9ad89adbe1256d838f" name="data/htdocs/__panda/inc/sys_get_temp_dir.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="aef043eb7001584f58bf1587d6668633" name="data/htdocs/__panda/trace/index.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="9540f5f487494f45f8a768ee66767443" name="data/htdocs/__panda/trace/view.php" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="642c928a0f74db1d118017ee8eb8352a" name="data/htdocs/__panda/favicon.ico" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="317e86cc417423175ccf530d5b1009a0" name="docs/images/face.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="d169d93a1b817c07b7b90f2294c25766" name="docs/images/foot.png" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b7dcee9c1f6c9e1d71f26ca772a49f44" name="docs/copyright.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="27b6cdc6f2354f5a5b441c3cd414afc9" name="docs/readme.txt" role="data">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="b89c6db8f64705c48d179bd921a86272" name="Panda/Debug/util.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="dc54b628d8c101ce4a0968ecb2032121" name="Panda/inc/FirePHPCore/fb.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="badd31a7b0985458732aeab47002e43c" name="Panda/inc/FirePHPCore/FirePHP.class.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="36a6673f1dd99fdf888d6a6bb9167c40" name="Panda/inc/debuglib.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="2b4a46e5fae2b529782afb80887fa934" name="Panda/inc/sys_get_temp_dir.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="29688ee37442a60d214b1d313b470914" name="Panda/Template/debug.css" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="0622c0b0b1fdd31264295bb4bbbab60b" name="Panda/Template/fatal.html" role="doc">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="17c97165180f52414cd567bacccb5c7d" name="Panda/Template/http.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="78e663c4e62528c94ab58282dcf66df4" name="Panda/Debug.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="25c4a7a02ae81ea90630d9b320cde4f8" name="Panda/Exception.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="6b5b54cd3b32e46229e3332afc962b05" name="Panda.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.6.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.2.6</release>
+    <api>0.2.6</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2010-02-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>

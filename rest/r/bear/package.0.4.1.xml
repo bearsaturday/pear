@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>BEAR</name>
+ <channel>pear.bear-project.net</channel>
+ <summary>BEAR PHP Framework Package</summary>
+ <description>BEAR is web application framework package.</description>
+ <lead>
+  <name>koriyama</name>
+  <user>koriyama</user>
+  <email>koriyama@users.sourceforge.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-10-29</date>
+ <time>22:08:52</time>
+ <version>
+  <release>0.4.1</release>
+  <api>0.4.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+ <notes>BEAR PHP Framework Package</notes>
+ <contents>
+  <dir baseinstalldir="BEAR" name="/">
+   <file baseinstalldir="BEAR" md5sum="bee5c60b892229ead03559dff21889c6" name="BEAR/Agent.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="291ce93b702f52d8942a2296bea6cd47" name="BEAR/Cache.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="208b05befd93a54b45d6d13ace414e60" name="BEAR/Content.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="84b5c08cd5fd6b784e734757329dbe1c" name="BEAR/Emoji.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="92da99a01919c83d5d4ff63002f5da79" name="BEAR/Error.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a5a164e092030db128fdd3b3ba0302df" name="BEAR/Form.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="81737bb0e5d9de132d6b9c394baa39c1" name="BEAR/Img.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b069d79e5907ac65302f05956b7a0180" name="BEAR/Log.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="36b4f3400a1f48fbd1115542b3e5b786" name="BEAR/Main.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="80008df4b75dfd4e1ca59bdea77e2a78" name="BEAR/Mdb2.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ab7cbe152cb3da0025cd12fc96473a3e" name="BEAR/Page.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="df324275a9bfdc5cfc5ff96bad104c41" name="BEAR/Pager.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6178999152d4cfca20a02bb66c251379" name="BEAR/Resource.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f551a5f27d0d3290220ffb1039557217" name="BEAR/Session.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8ed3ebef4e2376bd56c5dc2a7dbff637" name="BEAR/Smarty.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="40d4718a9e013d40014884cc3d784e77" name="BEAR/Vo.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4e1c02515bc222322aab036009e83e70" name="BEAR/BEAR/debug.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c65049c5cfcc0ab3c97af1b768759cb0" name="BEAR/BEAR/live.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1e3f36ea128e8099bb39208ffb694053" name="BEAR/BEAR/bin/bear.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="4c2d9f09c205ee3fe8982d795ab0ac20" name="BEAR/BEAR/bin/bear.sh" role="script">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="BEAR" md5sum="04a485d6c77c62b5c858eb3bf6bce917" name="BEAR/BEAR/error/error.503.1.html" role="doc" />
+   <file baseinstalldir="BEAR" md5sum="f3f371c13e82eb7e1d70e514c62eeecf" name="BEAR/BEAR/error/error.503.2.html" role="doc" />
+   <file baseinstalldir="BEAR" md5sum="24b400f5d17cacec35d3ffd39c822d4b" name="BEAR/Cache/Adapter.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a3bbbd542654b8e801caa8ab0eb31819" name="BEAR/Cache/Adapter/Apc.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="00ff6f9665c3f0110e17fc1618d9e4ea" name="BEAR/Cache/Adapter/Lite.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="38a5c3f6631528adfbda3a8a463395ea" name="BEAR/Cache/Adapter/Memcache.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6a5defa94e2c0ee15020cd64effe2cd4" name="BEAR/Cache/Adapter/None.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e114e228c76a5c7e3538c953c8b7abb6" name="BEAR/Emoji/Map.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9901769790fd95375ac5c5ddbbfcbee5" name="BEAR/Img/Adapter.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="923394879803ac8af1ab77eb6e2fe3d2" name="BEAR/Img/Adapter/Cairo.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="35be2771e9b080866bb9004d2cd2cf64" name="BEAR/Img/Adapter/GD.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9abd1d7dd61d2dc2f20874a1df20c4a9" name="BEAR/Img/Adapter/Magick.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="021be1db8846ca6cf25e6f00f852d796" name="BEAR/Resource/output/json.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="164e8a9af91397e4915fede76d63ba1c" name="BEAR/Resource/output/php.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="579e22dc313473e02a0f486f76ec88f0" name="BEAR/Resource/output/print.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="92728585dfd949ee55ff52077d69d066" name="BEAR/Resource/output/rss.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="272d8832f01ac0ad3b1face4e7da16ee" name="BEAR/Resource/output/xml.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="059fccfa05695792224a7fcefe71ef4b" name="BEAR/smarty/config/emoji/E/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="183d9c5195402804989df6049cd09419" name="BEAR/smarty/config/emoji/H/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0af21f4259fa57742807f9ca9e34bde2" name="BEAR/smarty/config/emoji/I/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="94f20a4fb864c2c0bed078b4a89194ec" name="BEAR/smarty/config/emoji/N/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7ce201b8bcd6fa1a0325bd7a9d9c588b" name="BEAR/smarty/config/emoji/S/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="286fcdfc4d3fead7436eb76430ce2fa5" name="BEAR/smarty/filters/bear.smarty.emoji_output.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e08cdf3c4655d963b83aad4b20db47f2" name="BEAR/smarty/plugins/block.a.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="10aedc6a99bd65651f52a29de35a1382" name="BEAR/smarty/plugins/block.mobile.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c1a052e34e272563e54d575be63cb1ea" name="BEAR/smarty/plugins/block.timer.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b6b774471d2fb5eebd8728d88c25cd1b" name="BEAR/smarty/plugins/modifier.mb_truncate.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="99d1403d2087114e9a1dfb76abf3fddb" name="BEAR/smarty/plugins/modifier.printa.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="90a5292c2654cf65cdb8e4c6ff5d6bdb" name="BEAR/smarty/plugins/modifier.qferror.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b345222476966daea35634ef9346fd98" name="data/docs/bear_js.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="42e17fe477ec4fc0084f6bf4e29700a3" name="data/docs/htaccess.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="66142f4ffeec06e08f2ab764f839b316" name="data/docs/phpdocumentor.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fc2eaaeee1fa061cf729d3e91f7921d3" name="data/docs/eclipse/BEAR Conventions.xml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b8cf0eeaf9cd3b8ede94d731eb766c4" name="data/docs/eclipse/PHPDocConfig.ini" role="php" />
+   <file baseinstalldir="BEAR" md5sum="26c0d1f26cbfc342fbd6fd2ece6ce6d2" name="data/docs/eclipse/svn_auto_property.xml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c88889f2bd7af0385d0832a1ae10bce2" name="data/docs/eclipse/templates.xml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6a9ffc6686676bcf70e888104c398556" name="data/docs/sql/bear_session.sql" role="php" />
+   <file baseinstalldir="BEAR" md5sum="29274e8a598579e72765ed3c3d7f685e" name="data/htdocs/emoji.zip" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0a349a7448dc10b79087f31e0426946b" name="data/htdocs/beardev/var.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a34f2dd076a25d5b473f23236a64b6ae" name="data/htdocs/beardev/ext-2.1/ext.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="06f266042590d0dc52d6b1269ef5c312" name="data/htdocs/beardev/ext-2.1/LICENSE.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4c7399e9eb100ae2a1e11c5ac772f1a3" name="data/htdocs/beardev/ext-2.1/adapter/ext/ext-base.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e83d34de51e71b4b012b223f7950932b" name="data/htdocs/beardev/ext-2.1/resources/resources.jsb" role="php" />
+   <file baseinstalldir="BEAR" md5sum="eb463135bad1898c2377e10cd64d5de7" name="data/htdocs/beardev/ext-2.1/resources/css/ext-all.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e117fca9d088e4cd5bbbcec7b99a8408" name="data/htdocs/beardev/ext-2.1/resources/images/default/gradient-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fc94fb0c3ed8a8f909dbc7630a0987ff" name="data/htdocs/beardev/ext-2.1/resources/images/default/s.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3abbfce345687daada53445adf6fddc7" name="data/htdocs/beardev/ext-2.1/resources/images/default/shadow-c.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="986270d8ab4330fa7499dc33ed135598" name="data/htdocs/beardev/ext-2.1/resources/images/default/shadow-lr.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="860bf4f690d2ea2aba7b11500925da62" name="data/htdocs/beardev/ext-2.1/resources/images/default/shadow.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="86fd4c5664e0971bfc11959e8442604c" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/corners-blue.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d2d1bc2085b369ce35ffd20c0121676e" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/corners.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ced9ffbf66ea39e77083a591f8257267" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/l-blue.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c4d9dbbdc59ae06b5e9e72a6a865c981" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/l.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="82dbb522a80e3246f6297719371a9494" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/r-blue.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bf1e1d4a45f951ae656968a8c834f04a" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/r.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7c4b19eb682afdc1bde0640d2321fb25" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/tb-blue.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dd3f63afe7ba90983ba73dad1c66bf2f" name="data/htdocs/beardev/ext-2.1/resources/images/default/box/tb.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9e2365ef98c6096f6b5f411ab618bb4e" name="data/htdocs/beardev/ext-2.1/resources/images/default/button/btn-arrow.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="47cd75b517cc956b9fdca302a12ba9f2" name="data/htdocs/beardev/ext-2.1/resources/images/default/button/btn-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="95eb34ac70a1a3c95ef39ab826a89491" name="data/htdocs/beardev/ext-2.1/resources/images/default/dd/drop-add.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ae536c37391ba78143b5c8283cec8d13" name="data/htdocs/beardev/ext-2.1/resources/images/default/dd/drop-no.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f3216326c00890259e84f1726dd1043f" name="data/htdocs/beardev/ext-2.1/resources/images/default/dd/drop-yes.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a2f06caddc2fb729db5cbbd874491128" name="data/htdocs/beardev/ext-2.1/resources/images/default/editor/tb-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="97b3e5e9edf27b50d63d48098c2f1eae" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/clear-trigger.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c8c2d843458728df5c184a54862c5946" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/clear-trigger.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="30b5bace9f3dac358716c1415270f874" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/date-trigger.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3f10ecf0d961006507d043f9b9fce45e" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/date-trigger.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="364474276178c7b48b6270056b42b808" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/error-tip-corners.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="37dbe02e3cbde0f6780650bfd8535e38" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/exclamation.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="559ef372cf27a38678d84e8c0b7237fc" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/search-trigger.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="daacfb6d450b8cd56da5905db4c8b8c0" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/search-trigger.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d5ba54c1f417e6a72cbce8b909078727" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/text-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d7be20f0dc38f4f46cd318fe32cf3ce3" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/trigger-tpl.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="45019efdf75528242c5a68742821dc57" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/trigger.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="18c377883d16e6146566f084f8b205cc" name="data/htdocs/beardev/ext-2.1/resources/images/default/form/trigger.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b04e859bdcbd21ad1f06b8bfa7881df8" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/arrow-left-white.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="714eb00f8134dde3a65c83f3f71ad2c4" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/arrow-right-white.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9c38bcb5cee1dc9b4ce64ad9ab1386f8" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/col-move-bottom.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c4584202d5172464050f675d396d1c6f" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/col-move-top.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ef35242fa6514a81d17d5f700f561b7c" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/columns.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="decca3b96e2c37cf6eb04ddb0d9f669b" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/dirty.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="365266930a93451414fe51ffc524a196" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/done.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b53ca86d60fbcc7a45c8917299218bfd" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/drop-no.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="af96f4c3b32a470db2f38abb521b5c97" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/drop-yes.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="65ed63e44c6149f1127ad3b4be4e0108" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/footer-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dd35d5c1202c440c2d1a945b335984d3" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid-blue-hd.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0494ba49974ff2bc1bf81e1d82dfee18" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid-blue-split.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="55972a5063d80f35fb6b95a79bb0018a" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid-hrow.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9ac6f737eb9b15272f12b00bfeb3c3c6" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid-loading.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3ef419d4b9421d8e94f673a6238dc4c0" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid-split.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="675f403e8a9cb5ab4bed725da9fe2023" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid-vista-hd.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e3e77072c16a6b27556236961f29c552" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid3-hd-btn.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a92d8f6c106943995720f2884634670e" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid3-hrow-over.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3e4484ea8db10af1320808c8477346ea" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid3-hrow.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c9df03a1c107360128da89fa47066405" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid3-special-col-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a94039f89dec164896ceff1fbdf6dbc5" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/grid3-special-col-sel-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3ff8c5936e358cf213227509c9bee95a" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/group-by.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d0f614a387292177f3acb0c95a4cd760" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/group-expand-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e5f27a2f68cc2d13b11cf41c46d298dc" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/hd-pop.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="048e0bc30f7c39d473dad5dabcbe03f2" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/hmenu-asc.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f0a987b34b003b25a7c82624d41f018a" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/hmenu-desc.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bcef18e25342c69c37c44dab87086065" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/hmenu-lock.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2a3b0b441834f443c1086930939efdae" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/hmenu-lock.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8cc8205dafa587ef02d8a86903ae8074" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/hmenu-unlock.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c1f61df70b98c5498ea81e7e7b9effbb" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/hmenu-unlock.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="04a88e97b56e8a8ece4a66d49cc78828" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/invalid_line.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="00ef871b291bc03a497d608a5bd8ec99" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/loading.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="37fba9c02f0eefe57f655890eef1c4a1" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/mso-hd.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="23c91166dbb16ba8655363321bf5a400" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/nowait.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8d3185028c541cbcce67b5909c04824e" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-first-disabled.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="16ec00fa770d860b768cf5034ddfca96" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-first.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1d123237ceeb5109a1b9274f0cf19d73" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-last-disabled.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ef524dd0b8dfe4eefecffaa1c0bb8edd" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-last.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0f4b8681772c91921fa93ede9c755ea0" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-next-disabled.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f6f9d2209dfc99912ffc9848d97646db" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-next.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="eefcbed15c8d37a89618b08f7b224297" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-prev-disabled.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="80daad880483eed682b22ec70514ecc4" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/page-prev.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b431fdf306f1e2f033d0a431996de93f" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/pick-button.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8dae08d3581dcd9a04ca73877eab4b53" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/refresh.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2d0aa7e501c3e6f97a97faf75e35d3c3" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/row-check-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="be81199d9d4fa69bef47a8f036a5a7d8" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/row-expand-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f639094bd0560aefabc86e51a825f23d" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/row-over.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ca87d6b950386edd5e17c985769d9101" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/row-sel.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2352874b5f636ca331fe9509a2f9bdd7" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/sort_asc.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d104fcf119d40c51554ddb8b377142e5" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/sort_desc.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c3affff39ba36b80da43a08c34a61391" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/Thumbs.db" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b0cd5a5dc070c705ebf8814a909802c3" name="data/htdocs/beardev/ext-2.1/resources/images/default/grid/wait.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dfcec0803d488a783916c750fd83a897" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/collapse.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c9c9b0ea5311c3dc016c69dc234912bc" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/expand.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e117fca9d088e4cd5bbbcec7b99a8408" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/gradient-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ae8e3674fd32997dc5217d5d6199a5a5" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/mini-bottom.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8654fdb45ecf4406af2fce1d3beb7596" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/mini-left.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cbdf9fb0c45466b4217ac9f7bd6a9ed4" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/mini-right.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fbd91e98576f66fd2702495251b15240" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/mini-top.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="efa9fbd7a1f3f0f1f22360391e16126f" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/ns-collapse.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="da1f9d40c091d3b6dc7a8dee4fc02ac6" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/ns-expand.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b185da1837344529bfb684a96d8371b5" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/panel-close.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b66384c309a397963389a76b07e9ecd4" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/panel-title-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="688d3a263442db125da170e5d3aebf70" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/panel-title-light-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="be9e67ae0b61b01cfd15928ca7a3da51" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/stick.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="745e0cacb51250ea0216efc4a1cb50cb" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/stuck.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0ae2c978e85391a69f0dce8da18d8b23" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/tab-close-on.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f92107cc6b4cb78af084648a628e01d2" name="data/htdocs/beardev/ext-2.1/resources/images/default/layout/tab-close.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cb7b3408df56f5585aaa1242cd2f0b45" name="data/htdocs/beardev/ext-2.1/resources/images/default/menu/checked.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f7973443d91e5e074013f1b07ee79479" name="data/htdocs/beardev/ext-2.1/resources/images/default/menu/group-checked.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bb4cdc0ea257834cd5ed01f883387d8f" name="data/htdocs/beardev/ext-2.1/resources/images/default/menu/item-over.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d303ad7e3ced891736e80f77e1d4e51d" name="data/htdocs/beardev/ext-2.1/resources/images/default/menu/menu-parent.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ae128d5f3f3a39213f3d4e23aec8728f" name="data/htdocs/beardev/ext-2.1/resources/images/default/menu/menu.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="31846118bddc7945b595ea2090589cf1" name="data/htdocs/beardev/ext-2.1/resources/images/default/menu/unchecked.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d4546c86ed835fee767212279ee98b68" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/corners-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6553647bad54d83e2c235f339d12f6be" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/left-right.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b058affcc8b3e8a03be74bc9d9697da7" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/light-hd.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e0449768cd5dce80b18fac904818ab33" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/tool-sprite-tpl.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d392b0380fce8849d44e212ae1fd333d" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/tool-sprites.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="545c53f0e1439e9441a0b41df848246a" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/tools-sprites-trans.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a4854e1b3aea60123522cb687a462c05" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/top-bottom.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2a65a27def756a0951644b511f6f2cce" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/top-bottom.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="81f089d0247ca1ad12093be21884d773" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/white-corners-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="77a6389c6737ad507ca5330ad8816524" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/white-left-right.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f865d7237bff3c45fd4a8c448f97d236" name="data/htdocs/beardev/ext-2.1/resources/images/default/panel/white-top-bottom.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fd75abcd9d1cb8534f24f438a71e6fd8" name="data/htdocs/beardev/ext-2.1/resources/images/default/progress/progress-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="49c0a530cc16357bb39d51c13065a88f" name="data/htdocs/beardev/ext-2.1/resources/images/default/qtip/bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0379d036250096cae2e42b427b3df2e7" name="data/htdocs/beardev/ext-2.1/resources/images/default/qtip/close.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="090b2d83952e682fab43b2ab16be2991" name="data/htdocs/beardev/ext-2.1/resources/images/default/qtip/tip-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dc2fd7c0ed853c56b4ac65710af3bd0a" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/blue-loading.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="81296cff1f97f5365524f2b9dcf626da" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/calendar.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bc2cd5c5ac9b3874d956c892d23f2119" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/glass-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6a54ae98bef53397d52282201852c204" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/hd-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d96f6517e00399c37a9765e045eaaf22" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/large-loading.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6bf30c6cf0b5d70436c3e463b5532b35" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/left-btn.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ac062b94ed674aaa50a6c18df92acdf3" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/loading-balls.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e7ad3a7f4814791cecf1b90e77e9e139" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/right-btn.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="448dc934a7f0dd6092b51f88a1e47b2d" name="data/htdocs/beardev/ext-2.1/resources/images/default/shared/warning.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b86289f41d7ad1a7401dd2b2a9b3c3d8" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/e-handle-dark.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="510edc95ebaa36306916c50ca10596f7" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/e-handle.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="115f71b851c7f0b5f354caa7b8dfff15" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/ne-handle-dark.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8e268b962dc909d275997b572ff17a72" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/ne-handle.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4a361e6920b2e34a39fd425a515c83b9" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/nw-handle-dark.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1120600505249c38c3d1cc2ab120cd13" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/nw-handle.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4a6bf15d308a4ae580dd03cbd431a95c" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/s-handle-dark.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5e3338cb09e9df7f52383d6b1423fc86" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/s-handle.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f3d8d8aac23e3e9633072e2366cda847" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/se-handle-dark.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="71edc3f63f79f447d2c81ee09e1fbbc3" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/se-handle.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4431ea1954bfd2a9cea0931f07fc7ffa" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/square.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="44b2400d873cf8a23d84424827cde44d" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/sw-handle-dark.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c3e0befc4208a51180344765fd7deeda" name="data/htdocs/beardev/ext-2.1/resources/images/default/sizer/sw-handle.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e6aabd902f2d880b6b796d0282708873" name="data/htdocs/beardev/ext-2.1/resources/images/default/slider/slider-bg.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f9fb2bcdddff931e025b3230fa67f3fa" name="data/htdocs/beardev/ext-2.1/resources/images/default/slider/slider-thumb.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2b5b960b58f37b793674de4b3f549115" name="data/htdocs/beardev/ext-2.1/resources/images/default/slider/slider-v-bg.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1ae5e00159072ccab1c54b4f6bfca5af" name="data/htdocs/beardev/ext-2.1/resources/images/default/slider/slider-v-thumb.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f1ce5158650880e9fe256e739f60dd23" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/scroll-left.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="905ea778cb64c74ef3cd49ae4fa64b71" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/scroll-right.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="43457068d919fadd0e959542cfd81ad2" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/scroller-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ed19092d440c5bfbdc864f714f26ee03" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-btm-inactive-left-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c3f340dc9f7f9398e1395f351e706dfd" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-btm-inactive-right-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dfe63a170d5391d56645dbfed27b5d22" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-btm-left-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="768ac4e5531974feda076cbca7a5cb6e" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-btm-right-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="59304a56f5e0f506bf671aeafb8fc767" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-close.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5b1b94e9669aaab4e76e5aba8bf8ec1d" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-strip-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d99e3b7b2610f3c85aa943fe139e6afa" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-strip-bg.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f76eec7881fcc7a0f76354d184e0087e" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tab-strip-btm-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2562a17ad0076bdd3711d18e62f74c27" name="data/htdocs/beardev/ext-2.1/resources/images/default/tabs/tabs-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b795052041aa76a42466b3be5575077f" name="data/htdocs/beardev/ext-2.1/resources/images/default/toolbar/bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fa49b39a0fd88ef26264da44a2b4edea" name="data/htdocs/beardev/ext-2.1/resources/images/default/toolbar/btn-arrow-light.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="12bda29a4c8016cfa047e852c4353f59" name="data/htdocs/beardev/ext-2.1/resources/images/default/toolbar/btn-arrow.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="faddf9b24cefa721326ba3f87f3ef31f" name="data/htdocs/beardev/ext-2.1/resources/images/default/toolbar/btn-over-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cf2d9408f320e696e607d8472afa7ff0" name="data/htdocs/beardev/ext-2.1/resources/images/default/toolbar/gray-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5309337fd7a22cab9d9467fd9eaa0a0c" name="data/htdocs/beardev/ext-2.1/resources/images/default/toolbar/tb-bg.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ba0a5d77db72942782fc4bf23f710738" name="data/htdocs/beardev/ext-2.1/resources/images/default/toolbar/tb-btn-sprite.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1ed43ea06dfbba89c06f6c6fc372ace0" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/arrows.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="95eb34ac70a1a3c95ef39ab826a89491" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/drop-add.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="edb544a0de58547d4a39c526e06e3c82" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/drop-between.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="67f83ea04a2eb1c50614a96faf625f25" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/drop-no.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d6b303cfa3de8784057d9d7e66cdaa86" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/drop-over.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="55e5dbc9451cfa91423832260b0753aa" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/drop-under.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f3216326c00890259e84f1726dd1043f" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/drop-yes.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5e5bffba157eceee7989db95b919e4d5" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-end-minus-nl.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a469f6a4394d797c2efeffc70409f6db" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-end-minus.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f0f50c0dd3ee6dd4b11c1f245b36eb01" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-end-plus-nl.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ec1482391363612d9e5f8c7087fddaba" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-end-plus.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="345551384aa325189ba28a1c20f3405e" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-end.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="90e478158df476dc989a60daaafc87e6" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-line.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5e5bffba157eceee7989db95b919e4d5" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-minus-nl.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="71bb1bd44b1274c60d30dba1de472ed7" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-minus.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f0f50c0dd3ee6dd4b11c1f245b36eb01" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-plus-nl.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="945572d06a74b5f952251a86c595f2da" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow-plus.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="27679f3b1222ba95d9925885d7d82d02" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/elbow.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c569141d6ae7c61d838ed8af26aa9380" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/folder-open.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b7209740bb4a825a06beb8698d92c2b1" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/folder.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="23757d6e353f343e3c7edfe28428f198" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/leaf.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="00ef871b291bc03a497d608a5bd8ec99" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/loading.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fc94fb0c3ed8a8f909dbc7630a0987ff" name="data/htdocs/beardev/ext-2.1/resources/images/default/tree/s.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f477b54b6b8361362e96c2218dce7ea0" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/icon-error.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ec6b7a5d4caeea767c8674689bae47c6" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/icon-info.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2713644a8aa582728d71e35eca62fbcd" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/icon-question.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3f20258272af0e00f6b7531b3b9aee35" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/icon-warning.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b31e6f0de60a5f9ddab629c7d65a0428" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/left-corners.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="18618115985e5905c7a6345c3ef0255a" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/left-corners.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="90000475dceec65de5c25bd6da3730ae" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/left-right.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9f0e61a3f55e16c5c9da9d5d97fef17f" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/left-right.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3262c5858058568e11f8c48f2a966411" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/right-corners.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="51aea4dd6bbdedf7923342e43bacbb7a" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/right-corners.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8109fe6a35207d8bb2b102eecae59ca7" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/top-bottom.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1df0b682ce95e536aa4c6e1c154e0250" name="data/htdocs/beardev/ext-2.1/resources/images/default/window/top-bottom.psd" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cdb3f0ea82a3a042a9d30bac2d09eb04" name="data/htdocs/beardev/log/examples.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4831f7b94cbb445566ad3fba1dfa5c48" name="data/htdocs/beardev/log/index.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e7bcd21cdc5b2c3c0f63d6a901254e93" name="data/htdocs/beardev/log/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="530c427452f45ebc36b9cf44343bf4c0" name="data/htdocs/beardev/log/tabs-example.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="757a980f55d3d621019175573cfc6a37" name="data/htdocs/beardev/phpinteractive_0.2/Changelog" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3fc5b0b83ca5a0d64561888f3e95f12f" name="data/htdocs/beardev/phpinteractive_0.2/COPYING" role="php" />
+   <file baseinstalldir="BEAR" md5sum="772b69d1bfd707322906b2e1b44734e2" name="data/htdocs/beardev/phpinteractive_0.2/defaultscript.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f6e550cc4e463128aec04d248c27e7f7" name="data/htdocs/beardev/phpinteractive_0.2/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9b0c67ad6347db5365b51e88e3dba7bb" name="data/htdocs/beardev/phpinteractive_0.2/interactive.jpg" role="php" />
+   <file baseinstalldir="BEAR" md5sum="142ca61ec55d362a0c5d162d6a00fa1a" name="data/htdocs/beardev/phpinteractive_0.2/README" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ff1f2a5ddd433ada6b5dc79fb6740afd" name="data/htdocs/beardev/phpinteractive_0.2/submit.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="772b69d1bfd707322906b2e1b44734e2" name="data/htdocs/beardev/phpinteractive_0.2/scripts/untitled" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e0d0556a7beba045d1dbfa284607bcef" name="data/htdocs/beardev/phpinteractive_0.2/scripts/untitled1" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cdb3f0ea82a3a042a9d30bac2d09eb04" name="data/htdocs/beardev/tool/examples.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1d1ce273eb4a497ae516bed47906f0c0" name="data/htdocs/beardev/tool/index.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9b1180b9d7150de2be43a8bb8b304da7" name="data/htdocs/beardev/tool/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="530c427452f45ebc36b9cf44343bf4c0" name="data/htdocs/beardev/tool/tabs-example.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="586061cf38cf2ad0891cf02d5603a1ca" name="data/package/make_package.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ef793f582dd019c2ef5c0c52dc43de49" name="data/package/make_package.sh" role="php" />
+   <file baseinstalldir="BEAR" md5sum="30dde222cccd70607432ba6469fde4cb" name="data/phpdoc/beardoc.ini" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c9a42d20274bf2e529f4a1692bb09752" name="data/template/class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="07bda54c5e3945b70abd39ebb847f5ae" name="data/template/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dcb80971a258535ddb4711683973c5ca" name="data/template/index.tpl" role="php" />
+   <file baseinstalldir="BEAR" md5sum="80a35e5183e09107feeeaa3e4340b4cb" name="data/template/smarty/block.example.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b21d87f7beaf9f2df6cfe26defcd7ee6" name="data/template/smarty/modifier.example.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="12a419f786b459a199c35a740b5b4c3a" name="inc/debuglib.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4be6bdb33d7db7697faa4cc053528bba" name="inc/LICENCE.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a34f2dd076a25d5b473f23236a64b6ae" name="inc/ext-2.1/ext.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="06f266042590d0dc52d6b1269ef5c312" name="inc/ext-2.1/LICENSE.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="68de89320997387108073ea33f45a789" name="inc/FirePHPCore/fb.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8368a226c0a199048d67e2ee8a0143cc" name="inc/FirePHPCore/FirePHP.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d382ee5ae0c82bb17e1d78c30dfbc705" name="inc/FirePHPCore/LICENSE" role="php" />
+   <file baseinstalldir="BEAR" md5sum="68ad62c64cc6c620126241fd429e68fe" name="inc/Smarty/COPYING.lib" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5edd783edf6bdff1f22cb878aa98aa11" name="inc/Smarty/README" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cfd2dac768e653a0d00f9cb2c63156c1" name="inc/Smarty/libs/Config_File.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="def6c6e062941c8b2986f9f977b26307" name="inc/Smarty/libs/debug.tpl" role="php" />
+   <file baseinstalldir="BEAR" md5sum="647be82d34a836325987bf07929630c2" name="inc/Smarty/libs/Smarty.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0be56f82ac56ce537f756eb9120cfe7f" name="inc/Smarty/libs/Smarty_Compiler.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c98832bd718c94629c732b5d4c2980cb" name="inc/Smarty/libs/internals/core.assemble_plugin_filepath.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4c2dd142c1c59e101b2f60cfc7a7cdc2" name="inc/Smarty/libs/internals/core.assign_smarty_interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a12f6e4653dc814369202e0ed57206b0" name="inc/Smarty/libs/internals/core.create_dir_structure.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="297b9baf349e7f32e8e815612e823e3c" name="inc/Smarty/libs/internals/core.display_debug_console.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ba78ea6d4112d4325b00e4b8101497c6" name="inc/Smarty/libs/internals/core.get_include_path.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="72eb40e8367f77f0bd251e15a5bd4f5f" name="inc/Smarty/libs/internals/core.get_microtime.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e0fccd538d6f0ed8915d39cc2f9dd860" name="inc/Smarty/libs/internals/core.get_php_resource.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7ea83dd65e64bc0bc893d44096ec61e0" name="inc/Smarty/libs/internals/core.is_secure.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="83e22de7a251fef6a033769b35989bf6" name="inc/Smarty/libs/internals/core.is_trusted.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d60028c542ec06749cd2d381bc07d0c2" name="inc/Smarty/libs/internals/core.load_plugins.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="08d531fb688eed7253b316b11436e512" name="inc/Smarty/libs/internals/core.load_resource_plugin.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2a846ebfec89211b7090149052374059" name="inc/Smarty/libs/internals/core.process_cached_inserts.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6da8abe9ab2050618fd6e344fbc8059b" name="inc/Smarty/libs/internals/core.process_compiled_include.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e7de28f374768f8b319687a34e226c80" name="inc/Smarty/libs/internals/core.read_cache_file.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="08209df8f3113b0d8322bcac3b5e055b" name="inc/Smarty/libs/internals/core.rmdir.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8834d9e9a8aa8473244d74096638b5c2" name="inc/Smarty/libs/internals/core.rm_auto.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f6452eb1f0f65cf3b07634228ea4c938" name="inc/Smarty/libs/internals/core.run_insert_handler.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0d87e492eb18ec8b4fa492f2ac34c163" name="inc/Smarty/libs/internals/core.smarty_include_php.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6e0ca7e246ee7a6fea7e2e6e4381332b" name="inc/Smarty/libs/internals/core.write_cache_file.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ff7944e8092eaf7c2ee97d865df29788" name="inc/Smarty/libs/internals/core.write_compiled_include.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="caa79e832d4587991606dd9a0988c852" name="inc/Smarty/libs/internals/core.write_compiled_resource.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="23f99e19895028592cff61325b6ed0b1" name="inc/Smarty/libs/internals/core.write_file.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f4e1cc15997ff132066f5e4e09e92054" name="inc/Smarty/libs/plugins/block.textformat.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b4f1eb6f5a8cde9dbec9f5fb1ccb108c" name="inc/Smarty/libs/plugins/compiler.assign.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0abdfebfea185a7b1a727d9546e244be" name="inc/Smarty/libs/plugins/function.assign_debug_info.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fa6466c59cab6333c64ac270dd6c53b1" name="inc/Smarty/libs/plugins/function.config_load.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9531e844efd007c593dadd6173cb0bbd" name="inc/Smarty/libs/plugins/function.counter.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="db7b2e51bd5e26f93032929dcb2d531b" name="inc/Smarty/libs/plugins/function.cycle.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4963d564da17a2578fc5f56d9c53e7bc" name="inc/Smarty/libs/plugins/function.debug.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3fedd0e2a4c285200c12fe6427bc2739" name="inc/Smarty/libs/plugins/function.eval.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="51259f99b6554fa1a6a60013a5e7880a" name="inc/Smarty/libs/plugins/function.fetch.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a05460918e36fd9ef66d955754868a3e" name="inc/Smarty/libs/plugins/function.html_checkboxes.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="de11daabe07795fe4229b8d0185489dd" name="inc/Smarty/libs/plugins/function.html_image.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b634076ab0424a5b8310ff733c5615a6" name="inc/Smarty/libs/plugins/function.html_options.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6a00315efe8f8202823ade3bf3e6e513" name="inc/Smarty/libs/plugins/function.html_radios.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ad1d200bf750d98379cfc5507eac681d" name="inc/Smarty/libs/plugins/function.html_select_date.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ac7c160c72b293e6509840a5aba9a429" name="inc/Smarty/libs/plugins/function.html_select_time.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d7ade8af24efeb33f852bef185004521" name="inc/Smarty/libs/plugins/function.html_table.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="03b5b66b3c6221c34b0d27c030dc7b60" name="inc/Smarty/libs/plugins/function.mailto.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0b33b8526bcff403e3d650c3d7eb982b" name="inc/Smarty/libs/plugins/function.math.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1e8b78080d08a386ba297c0dbb7c3a7b" name="inc/Smarty/libs/plugins/function.popup.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b2353a42807535109e1f037c0d51f19c" name="inc/Smarty/libs/plugins/function.popup_init.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="70f58c49c5bd2851be11a3d67a92d2a4" name="inc/Smarty/libs/plugins/modifier.capitalize.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9dbc6c2d6d78165d9d0ffae481509b6a" name="inc/Smarty/libs/plugins/modifier.cat.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="91694b84f8b86aa551ff49ced16dbd11" name="inc/Smarty/libs/plugins/modifier.count_characters.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c64e0f47b6435424a7bf9647eed06c1e" name="inc/Smarty/libs/plugins/modifier.count_paragraphs.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c22e43e96e6ecd34cc18bc5235d59337" name="inc/Smarty/libs/plugins/modifier.count_sentences.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="073467c9ea7434647bb9ff27fe09183b" name="inc/Smarty/libs/plugins/modifier.count_words.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5d57183abba166f670d0b8649086f516" name="inc/Smarty/libs/plugins/modifier.date_format.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="083998f71b350e0f2bea5b46477680c2" name="inc/Smarty/libs/plugins/modifier.debug_print_var.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="11c16bd6f7dde6d576d7f93433652925" name="inc/Smarty/libs/plugins/modifier.default.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3bd0b2464f2fe8e2688da39079d84190" name="inc/Smarty/libs/plugins/modifier.escape.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ea1f5db88c00e850c3968e434eadb074" name="inc/Smarty/libs/plugins/modifier.indent.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5520933762ceac07d49e658c52587279" name="inc/Smarty/libs/plugins/modifier.lower.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1d16b98e8ec34aac69f0827fab1dc999" name="inc/Smarty/libs/plugins/modifier.nl2br.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8410e0a83750cd1b9553b3e8fc861ab5" name="inc/Smarty/libs/plugins/modifier.regex_replace.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b7d144b301a878c3015f9ba96b1922c6" name="inc/Smarty/libs/plugins/modifier.replace.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="66993120ab60306acd278a327c5af448" name="inc/Smarty/libs/plugins/modifier.spacify.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="401048107fc62eecf175d2a0ab997161" name="inc/Smarty/libs/plugins/modifier.string_format.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b1281f77297db8c1e50bc1fd883ebd78" name="inc/Smarty/libs/plugins/modifier.strip.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="481144a581e2d56a2182add2e09c5641" name="inc/Smarty/libs/plugins/modifier.strip_tags.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="da35c3d0a2dfc9ea11c32b3a10246aa7" name="inc/Smarty/libs/plugins/modifier.truncate.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0ef0e9784273f5d5384f34ad303bd15e" name="inc/Smarty/libs/plugins/modifier.upper.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b80bdf801ac29e3aa4662a0428b676e4" name="inc/Smarty/libs/plugins/modifier.wordwrap.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6535eaea7108bacf0bd81d45983eced2" name="inc/Smarty/libs/plugins/outputfilter.trimwhitespace.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2f7221015323ba27d2ed5ae20450fa0d" name="inc/Smarty/libs/plugins/shared.escape_special_chars.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="29ffe6553da8fda72147a12273105e10" name="inc/Smarty/libs/plugins/shared.make_timestamp.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fc078d17510880bb8b0cc4454150ab63" name="inc/spyc-0.2.5/CHANGES" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f9b9503f9a04aadd46e3f30e37a7833a" name="inc/spyc-0.2.5/README" role="php" />
+   <file baseinstalldir="BEAR" md5sum="79a891ed4cc5505e709e97a82078b34b" name="inc/spyc-0.2.5/spyc.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8dde14b9fe3102dbab275f12bab62f67" name="inc/spyc-0.2.5/spyc.php4" role="php" />
+   <file baseinstalldir="BEAR" md5sum="14e1e38035022240435c0b00e36f60f7" name="inc/spyc-0.2.5/spyc.yaml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="aadac1ff7fb97364e934e845e861f2d4" name="inc/spyc-0.2.5/test.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ea540295aafe1a154271a82fa4a5bdec" name="inc/spyc-0.2.5/test.php5" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0b9d00e019ff76680b83533f14208f85" name="inc/spyc-0.2.5/yaml-dump.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="44484c8274766d3c12af0df97d3dea46" name="inc/spyc-0.2.5/yaml-load.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f58f17d7a611514b62cdbc36f6fda291" name="tests/BEARTest.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="13f20c308e75aafcb5889c0c13fec7de" name="tests/_BEAR_CacheTest.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="c8ee433dff25baa716d4aa695eb0a434" name="tests/_BEAR_PageTest.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="fd53ed37fa5feb7d626a268a4aa4abb9" name="tests/files/example.ini" role="test" />
+   <file baseinstalldir="BEAR" md5sum="f0ed8c5c2f267b2694c40a2808f69a41" name="tests/files/example.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="d1ff81139d562adb15103d8ac15a1dae" name="tests/files/example.xml" role="test" />
+   <file baseinstalldir="BEAR" md5sum="3c8f238702072d178dfb7ef73c388424" name="BEAR.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0d34774b7fbf48ef53aa1c79276c55ff" name="LICENCE.txt" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>HTML_QuickForm</name>
+    <channel>pear.php.net</channel>
+    <min>3.2.5</min>
+   </package>
+   <package>
+    <name>HTML_QuickForm_Renderer_Tableless</name>
+    <channel>pear.php.net</channel>
+    <min>0.6.0</min>
+   </package>
+   <package>
+    <name>HTTP_Upload</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.1</min>
+   </package>
+   <package>
+    <name>HTTP_Download</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.1</min>
+   </package>
+   <package>
+    <name>HTTP_Client</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.0</min>
+   </package>
+   <package>
+    <name>HTTP_Session2</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.2</min>
+   </package>
+   <package>
+    <name>Log</name>
+    <channel>pear.php.net</channel>
+    <min>1.9.3</min>
+   </package>
+   <package>
+    <name>Net_UserAgent_Mobile</name>
+    <channel>pear.php.net</channel>
+    <min>0.26.0</min>
+   </package>
+   <package>
+    <name>Pager</name>
+    <channel>pear.php.net</channel>
+    <min>2.3.6</min>
+   </package>
+   <package>
+    <name>Spreadsheet_Excel_Writer</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.0</min>
+   </package>
+   <package>
+    <name>XML_RPC</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.5</min>
+   </package>
+   <package>
+    <name>XML_Serializer</name>
+    <channel>pear.php.net</channel>
+    <min>0.18.0</min>
+   </package>
+   <package>
+    <name>I18N_UnicodeString</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.1</min>
+   </package>
+   <package>
+    <name>XML_RSS</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.10</min>
+   </package>
+   <package>
+    <name>MDB2</name>
+    <channel>pear.php.net</channel>
+    <min>2.4.0</min>
+   </package>
+   <package>
+    <name>MDB2_Driver_mysqli</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.0</min>
+   </package>
+   <package>
+    <name>XML_RSS</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.2</min>
+   </package>
+   <package>
+    <name>Var_Dump</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.3</min>
+   </package>
+   <package>
+    <name>Text_Highlighter</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.1</min>
+   </package>
+   <package>
+    <name>Config</name>
+    <channel>pear.php.net</channel>
+    <min>1.10.0</min>
+   </package>
+   <package>
+    <name>File</name>
+    <channel>pear.php.net</channel>
+    <min>1.3.0</min>
+   </package>
+   <package>
+    <name>HTTP_Session2</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.2</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>PEAR_PackageFileManager</name>
+    <channel>pear.php.net</channel>
+    <min>1.6.0a7</min>
+   </package>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.3.2</min>
+   </package>
+   <package>
+    <name>PhpDocumentor</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.2</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="bear" name="BEAR/BEAR/bin/bear.sh" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.4.1</release>
+    <api>0.4.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2008-10-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+   <notes>BEAR PHP Framework Package</notes>
+  </release>
+ </changelog>
+</package>

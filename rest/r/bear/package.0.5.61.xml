@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>BEAR</name>
+ <channel>pear.bear-project.net</channel>
+ <summary>BEAR PHP Framework Package</summary>
+ <description>BEAR is web application framework package.</description>
+ <lead>
+  <name>koriyama</name>
+  <user>koriyama</user>
+  <email>koriyama@users.sourceforge.jp</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-04-23</date>
+ <time>06:38:43</time>
+ <version>
+  <release>0.5.61</release>
+  <api>0.5.61</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+ <notes>BEAR PHP Framework Package</notes>
+ <contents>
+  <dir baseinstalldir="BEAR" name="/">
+   <file baseinstalldir="BEAR" md5sum="128136c7496f9acdac4c72f42ec8baf1" name="BEAR/Advice.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e749e1676cf5c7af8d62a2f7fd4f51c8" name="BEAR/Agent.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b1d922700059fcc610aec3f2e24318fa" name="BEAR/Annotation.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="568ac7b66d0781cc70a4ea3a4bbd3644" name="BEAR/Cache.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="04eaba99ac05a5f0c2178320b3a3504f" name="BEAR/Emoji.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ecdb7c3112d869487d8abe8d576679c0" name="BEAR/Error.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="87d0a00c81c1d8c17c7bbb6200c94317" name="BEAR/Exception.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="efd4dcf1334f1f880ad2ae876419251a" name="BEAR/Form.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c67325ece0ddc35ff686cdc45a00a652" name="BEAR/Img.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bc8fcfa854bd61bab2a1bcd84418b5f3" name="BEAR/Log.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1d56da856d97afd022659b5cddadbe78" name="BEAR/Main.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="777deb36d1ed89e564808e50c891a544" name="BEAR/Mdb2.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8acbffca161b11fef60f074ebe10b3da" name="BEAR/Page.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3773837714aed119a4ddc0cbf7899a2f" name="BEAR/Pager.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="52bec32a4382cf6170ecb4b9b353830e" name="BEAR/Resource.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="50a6604ff7d2a440fbaac2c0f2e1ff0f" name="BEAR/Session.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5ae7890c852dec49965ba3c82dc6b443" name="BEAR/Smarty.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d53078710757240bfe67b2e0a8c07a95" name="BEAR/Util.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="aae0b09a3e76cd6ffd52a03aeb89f226" name="BEAR/Vo.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c3c0fb7a88e11346230fa3f215d55a4a" name="BEAR/Aspect/JoinPoint.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f9b79265689bd9152e66625550d5f355" name="BEAR/Aspect/Weaver.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="60708941e0b3bb33a07429e83d4c9625" name="BEAR/Aspect/After/Interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f91bbb0c875445398403b42013caeafd" name="BEAR/Aspect/Around/Interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7869173efc4fa7b98d19a3eec63b1157" name="BEAR/Aspect/Before/Interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="16fdb22c607799ed76398d3e9f1eb50d" name="BEAR/Aspect/Return/Interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="24db0e34384f8867a9628d6d04d69e4d" name="BEAR/BEAR/Base.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2f8a533038744216ff3610dc829ca22c" name="BEAR/BEAR/debug.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="40d4ab3be114a087e7fa3e1c4827c434" name="BEAR/BEAR/live.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="18c11ac9acb7416a6edf93bb61ca5e79" name="BEAR/BEAR/bin/bear.php" role="php">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="/" md5sum="e44a0f89a23ac552e15bdde7aabc65ad" name="BEAR/BEAR/bin/bear.sh" role="script">
+    <tasks:replace from="@PEAR-DIR@" to="php_dir" type="pear-config" />
+    <tasks:replace from="@DATA-DIR@" to="data_dir" type="pear-config" />
+    <tasks:replace from="@PHP-BIN@" to="bin_dir" type="pear-config" />
+   </file>
+   <file baseinstalldir="BEAR" md5sum="3c1693870fba13619b34f16eaf0a294d" name="BEAR/Cache/Adapter.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="05b7f6d2fbe8adc20664f5357fb893cb" name="BEAR/Cache/Adapter/Apc.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="68c2a0563881bff57b30b231d64fca54" name="BEAR/Cache/Adapter/Lite.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c3c99cde38639bf86749e3e97887ec18" name="BEAR/Cache/Adapter/Memcache.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="45835c44b47347fa59268936a603d05e" name="BEAR/Cache/Adapter/None.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ff3f66ffc91b12704459e31ff258cc6b" name="BEAR/Dev/Shell.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6315e1b602a60e49e477da5018b042e5" name="BEAR/Emoji/Map.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="327884b57b37a54fc1ec923e82460be7" name="BEAR/Error/error.503.1.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c7d468c4fd6a77fb89f0454abec07454" name="BEAR/Error/error.503.2.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="32316c4bc29750ab5c9b14f3d5b2a2a5" name="BEAR/Error/Exception.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cd861512ad876f1d00808ed9fc996924" name="BEAR/Error/http.tpl" role="php" />
+   <file baseinstalldir="BEAR" md5sum="61d452e3a53fd618bc3eeebca375f975" name="BEAR/Img/Adapter.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cf1ebe6063b539a357ceb757d5c6d32a" name="BEAR/Img/Adapter/Cairo.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b2019e650d65f812f6aec39a2a349026" name="BEAR/Img/Adapter/GD.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2c3bc14aacd80271ff52ea542e8d3c78" name="BEAR/Img/Adapter/Magick.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9f7e459a4f20d8dabc622b78eece2bc8" name="BEAR/Page/Exception.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="768409bc1853894c8d2e8cb52d72d5ae" name="BEAR/Resource/Request.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5e57f600e59a5cf3598dd1da641094e6" name="BEAR/Resource/Server.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bb4f7407d8336bafc2f2e86b509d9152" name="BEAR/Resource/Execute/Function.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c0d87d52eb707d7ed79a46a9a7b5751f" name="BEAR/Resource/Execute/Http.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d0a6cac01ed6533c0e55146b54147d15" name="BEAR/Resource/Execute/Mock.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0394bc4818094b7e609da02230b20d9e" name="BEAR/Resource/Execute/Null.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f307dbb50484cde3878ffe41c6862b0f" name="BEAR/Resource/Execute/StaticFile.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c85733550ce6626eff9afdc4f59e2b6d" name="BEAR/Resource/Execute/Vo.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8f029e216e2fb1579e48ca57a3d31ff4" name="BEAR/Resource/output/ajax.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cb5dc6ccd6b4b9844e9a30178d4daa5c" name="BEAR/Resource/output/json.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="904a8eb64c8095b39a61fa57dc58ceaf" name="BEAR/Resource/output/php.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cbc15ce62ed2790584409dd0d5c7ec8c" name="BEAR/Resource/output/print.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b6844f9efc20f9645cba88eb9614e5b" name="BEAR/Resource/output/rss.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2a7485415f9a463ee4b0012e7d098cd0" name="BEAR/Resource/output/xml.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="25fee758baeace43236e87174ca59653" name="BEAR/Resource/Request/Cache.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="70bbe3cbbbbf5fda3b9408e750940e24" name="BEAR/Resource/Request/Execute.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="30243f6a8e993990e9ad1bfcfadf49ba" name="BEAR/Resource/Request/Interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d095f8c3cb262856200d2d1f8fab75c9" name="BEAR/Resource/Server/Client.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fcfd9e954bc71b851badfc8f5656d87d" name="BEAR/Resource/Server/Handler.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="059fccfa05695792224a7fcefe71ef4b" name="BEAR/Smarty/config/emoji/E/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="183d9c5195402804989df6049cd09419" name="BEAR/Smarty/config/emoji/H/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0af21f4259fa57742807f9ca9e34bde2" name="BEAR/Smarty/config/emoji/I/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="94f20a4fb864c2c0bed078b4a89194ec" name="BEAR/Smarty/config/emoji/N/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7ce201b8bcd6fa1a0325bd7a9d9c588b" name="BEAR/Smarty/config/emoji/S/emoji.conf" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dfa62d3e140f77ac071f93b8922182cd" name="BEAR/Smarty/plugins/block.a.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7ebc766b778c5da98b477e9dd17c4ba4" name="BEAR/Smarty/plugins/block.mobile.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e740e872eabf7bf2eab6d8d02c169ba7" name="BEAR/Smarty/plugins/block.timer.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0999fe4579e0c33f166a5e858d292b17" name="BEAR/Smarty/plugins/modifier.mb_truncate.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="53cf9137a1dec92f5b9786c135af8226" name="BEAR/Smarty/plugins/modifier.printa.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8b32bddf03b5de7ea4228404d5d4c626" name="BEAR/Smarty/plugins/modifier.qferror.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1ee2b5884dc8691fc9ee5bd23f4fb528" name="BEAR/Vo/Interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4423d0093e00d996256976db2cb5e1d4" name="BEAR/Vo/Iterator.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ff3f34bfa608d1033bfd2376893920a2" name="data/cli/server.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="42e17fe477ec4fc0084f6bf4e29700a3" name="data/docs/htaccess.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="66142f4ffeec06e08f2ab764f839b316" name="data/docs/phpdocumentor.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5a612539207ed849ad7fe16dd4d88f18" name="data/docs/eclipse/BEAR Conventions.xml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b8cf0eeaf9cd3b8ede94d731eb766c4" name="data/docs/eclipse/PHPDocConfig.ini" role="php" />
+   <file baseinstalldir="BEAR" md5sum="26c0d1f26cbfc342fbd6fd2ece6ce6d2" name="data/docs/eclipse/svn_auto_property.xml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="135793043ee5d177218950c53f0c8c2f" name="data/docs/eclipse/templates.xml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="00869372c3ee0ab00f9b9ca88cd3ef89" name="data/docs/sql/session.sql" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f2613f9d63e06ee781bc339573094542" name="data/htdocs/emoji.zip" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fccf34dc4c2b8a22081f54b9b08bfbaf" name="data/htdocs/bear/app.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="02ee7594805fca143c29f981f0978f5c" name="data/htdocs/bear/jquery.bear.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5d4c7816890f3308da6126f5fa65c979" name="data/htdocs/bear/jquery.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b9776076d5fceef4993b55c9383dedd" name="data/htdocs/bear/image/loading.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="25f44cd732d81745f9c5fb42664ffc8d" name="data/htdocs/beardev/category.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1b32a114e49165a41b660fb3b061b961" name="data/htdocs/beardev/favicon.ico" role="php" />
+   <file baseinstalldir="BEAR" md5sum="469de747df4637c88bd7ab53eaae30b9" name="data/htdocs/beardev/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cc70e001a8a6509b79be1fd345e11336" name="data/htdocs/beardev/bearshell/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c95c4d3c0bb400fba1a01f60cbc5e819" name="data/htdocs/beardev/bearshell/page.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1ccd53047d8cdca7a0d0b1a78d01c1ac" name="data/htdocs/beardev/bearshell/refresh.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b7f174fc4cf66a16a798265831b0316d" name="data/htdocs/beardev/bearshell/shell.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bce0dd441c7b2a1abd7a603a62843408" name="data/htdocs/beardev/code/CodeSniff.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="543a9c3c8ace0c7c7bceaca0d94cbba9" name="data/htdocs/beardev/code/home.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dc97264c0c9ea216088dff046ebf9dac" name="data/htdocs/beardev/code/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="39da7a1c6c8268e9c8edddb7112eb237" name="data/htdocs/beardev/code/page.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2a1aed2127e8c84d133393859436661e" name="data/htdocs/beardev/code/source.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="df2a9043fba8e67296708cf487efbb6a" name="data/htdocs/beardev/code/tab.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7fab271c09d981e891a44326737616bd" name="data/htdocs/beardev/css/bearshell.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="db77fea0bbe488fead5d00f60c1b4590" name="data/htdocs/beardev/css/default.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fccad44ae3a052a09b2cf6b7440735d8" name="data/htdocs/beardev/img/reload.gif" role="php" />
+   <file baseinstalldir="BEAR" md5sum="00a63435cbd6bc9d0b009bf60eca60cb" name="data/htdocs/beardev/info/apc.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="faad6c7867f311215f8c6e76d7ed89b0" name="data/htdocs/beardev/info/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5dfc467d7f6afdb97fc106e5d5ad5a80" name="data/htdocs/beardev/info/memcache.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a3159f884b72488baa9de4572ac3c55d" name="data/htdocs/beardev/info/others.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c7b4a6f7598d1cc680ed437218b49a6f" name="data/htdocs/beardev/info/tab.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="406832bb975f8906b48daff95e3b3f5b" name="data/htdocs/beardev/info/pear/example.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5db38efed34870b71b5bcb2dce401b59" name="data/htdocs/beardev/info/pear/htaccess" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fd5b50de554f8ebba6b86797c61f1551" name="data/htdocs/beardev/info/pear/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7945e3b1950d217130fd512a0ebe60b6" name="data/htdocs/beardev/info/phpinfo/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c8ec85cfbe90cd3bcd2335a472369051" name="data/htdocs/beardev/jquery-ui/index.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b1e140618cb51ff20288e6389addd3c0" name="data/htdocs/beardev/jquery-ui/css/smoothness/jquery-ui-1.7.custom.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2a44fbdb7360c60122bcf6dcef0387d8" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8692e6efddf882acbff144c38ea7dfdf" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f8f4558e0b92ff2cd6136781533902ec" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e5a8f32e28fd5c27bf0fed33c8a8b9b5" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c12c6510dad3ebfa64c8a30e959a2469" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f4254356c2a8c9a383205ef2c4de22c4" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5a3be2d8fff8324d59aec3df7b0a0c83" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="72c593d16e998952cd8d798fee33c6f3" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a4127cef04012ee8681adef24d8e2a0f" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="89a6553a4bba879b4944ba11cf061e04" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="488f07fac2ec00ca851c4ff6640e0430" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4ec07344d71ee10034427088ec6f3ca3" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="85eb7d511838b9bc089b7d6efd4ded92" name="data/htdocs/beardev/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bb381e2d19d8eace86b34d20759491a5" name="data/htdocs/beardev/jquery-ui/js/jquery-1.3.2.min.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6ca37843f30948f28c05bd28a22b509b" name="data/htdocs/beardev/jquery-ui/js/jquery-ui-1.7.custom.min.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="384772142d1907d7d3aea3ac11fad9d0" name="data/htdocs/beardev/jquery-ui/js/jquery.cookie.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="734445402394809c538e1ead6a6ddea6" name="data/htdocs/beardev/js/app.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="02ee7594805fca143c29f981f0978f5c" name="data/htdocs/beardev/js/jquery.bear.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="71884dd74862c99a9a71aad4c51476a5" name="data/htdocs/beardev/log/extjs.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="faad6c7867f311215f8c6e76d7ed89b0" name="data/htdocs/beardev/log/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3376d6a872c4a5a13d9d17d9dfde756d" name="data/htdocs/beardev/log/tab.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="165f7496d3db693b005a508083e6cd5c" name="data/htdocs/bearinfo/bearinfo.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f475f0da6685982476e2576f76a13ae9" name="data/package/make_package.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ef793f582dd019c2ef5c0c52dc43de49" name="data/package/make_package.sh" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4abe348610d812ab91ad175bc92f73d5" name="data/phpdoc/beardoc.ini" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7117bf1c7774e53982329b9dbe90bb8d" name="data/phpdoc/readme.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="90dcda52bb4806b8cac90ecd2cdd687a" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c06cdf28a2b316d41a3bdcc9186c50fb" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Agent.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a46542cc3da580975cf46da216535ecc" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Annotate.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ba881450f9ae4a65ab60c271a09a21ba" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Aspect.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="685e9871c3d020ded526e0b481f64181" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Cache.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8a89009112f7e4e8c928649e33f08ef5" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Dev.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e9441473b72b01b8c4b7988bb4918e31" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Emoji.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d28045d140a6bcf796bdcf72a3b99c37" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Error.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fbe3e2aa63ff59fa803ac79e174430bd" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Exception.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1de624819ecaabba914dea60cd1aa6a4" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Form.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3b4efcb2d6c7b156c3d032f1ad9b9d50" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Img.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8c54c448a8633686fc5e6216b342c418" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Log.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="287bbab68055f625729ee67b193c9aa9" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Main.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="08801105b7b37cebc2730e9198f1a0e4" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Mdb2.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ad20be3a65ada6fe8c9a66dcdbaedfb3" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Page.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a94ace585a4e039101617e006205906e" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Pager.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b0d83b80503bfd5fcc077d55b054b0e9" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Resource.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5de67ac6dc2271cd3a827bd7f4e645e3" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Session.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="32602f9a7fe023e05cc51f5e2daf72e7" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Smarty.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1938091d6a0635e40cd898285488c023" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Util.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9d5288fbb7c6a346f3f0ffaa19d3aa8d" name="data/phpdoc/~/tmp/bear.doc/classtrees_BEAR_Vo.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="604455388fac6ec54f8aa08bd4fa876f" name="data/phpdoc/~/tmp/bear.doc/classtrees_default.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4ac33dc36123b094c42da0e129d4bf94" name="data/phpdoc/~/tmp/bear.doc/elementindex.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4cb46e0eb0ec98a85a0645b4cfeebe82" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2f038c3f44ebf98c569edd394fad60fd" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Agent.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ee4c211968732ea815d584f2be6540ec" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Annotate.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d059bc38469d429c64408c55f1458a9a" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Aspect.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ac1d9bf31a75f3cb2d70d59d8848bcef" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Cache.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3be10e7e4124c83a6d46ab18dc082643" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Dev.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0abfcc112230829d96ac623d193b219d" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Emoji.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="75adc4e6b241f13ee881bc79d3b7bcf7" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Error.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9c64a9c07247b8a0aaee3e570cfdf0f1" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Exception.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d47a4d62d95385525eea16dc70ad20f2" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Form.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="beb9ed2a31c0f3cd20d7c51280660d6a" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Img.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b1344ec48d27ad03b263ab204aa829e" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Log.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a02dd54955e1a6025948d227cd567af3" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Main.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c65c54dc0acb6f52525c7369bfccf8b2" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Mdb2.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="81fc71919dbedd535bf41e4fafa1714c" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Page.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9ab7c684014b66f8ab8ab19c6b95b5ab" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Pager.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="94fa1d674894b0dcefaeb4680eede9d7" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Resource.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1a5f42046b3e67aa7da73b7492b811ca" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Session.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1683504bf704d3ebc9c4b9851d4a9786" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Smarty.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="89389bc60fa05e54192f88f258e9a7df" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Util.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ae3a92bd2a3123e335ad02fe5ad7165a" name="data/phpdoc/~/tmp/bear.doc/elementindex_BEAR_Vo.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4bb3bd52a19662e2b3085a8cf311efee" name="data/phpdoc/~/tmp/bear.doc/elementindex_default.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="50700a401e4739e106f10e0736e17fc3" name="data/phpdoc/~/tmp/bear.doc/errors.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2b714b13d22f8c7f160356c72affc5d0" name="data/phpdoc/~/tmp/bear.doc/index.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4ba40957e38288643177588bd5179cfb" name="data/phpdoc/~/tmp/bear.doc/li_BEAR.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="40bf4a013c161aa2692db8902dfe13b1" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Agent.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="68e58ec94f916f1a5c88825981e7233f" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Annotate.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="29413ed9e395d0ec9e983649377f1a32" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Aspect.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="991ece44f1540fe94ec23f0b63ed9241" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Cache.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c187a313eb940dcefd93f6808b0e471e" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Dev.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="137dbb7d47651e4c7e6115e323c7e3c5" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Emoji.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="456551fb0275073e95fef32bf504d267" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Error.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e0cc990d09d874b64f78c3c16514af85" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Exception.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d60fd030fedc1b55cd01d1c07366db22" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Form.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bcd6cfad88484d721c207b9a13acb7ea" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Img.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="56d479daf78e805ad8723eb2833e8a34" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Log.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="18a4ce1cc8bbb8f877a057810a553dd7" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Main.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b00b667228b10b823473428ec04eb5b5" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Mdb2.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="453fbf6dfef943a04bbfe1d32f2013b9" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Page.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4aa8a60927bab9edc93685fb458ee9b0" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Pager.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f84832143ca44916bfabaa2ccc1f0ee4" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Resource.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e14e40b31c089e05225e337d5522eabe" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Session.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2ed81287768b08c831f34e1fd22157fe" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Smarty.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8f36b73f4a2ac60ac9dfd2320d552b44" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Util.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="db2c4e5157409f431c5883024a2fa7c5" name="data/phpdoc/~/tmp/bear.doc/li_BEAR_Vo.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2b714b13d22f8c7f160356c72affc5d0" name="data/phpdoc/~/tmp/bear.doc/li_default.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3e6a83f5ed6fd5801a4c4f129f3efc28" name="data/phpdoc/~/tmp/bear.doc/todolist.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4f07909af13ea1cecbbaaf2e2eb87a75" name="data/phpdoc/~/tmp/bear.doc/BEAR/BEAR.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="be703e9b8cb7873a8bb24769f77acec5" name="data/phpdoc/~/tmp/bear.doc/BEAR/BEAR_Base.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3a3640b41ed914e8847798965d97caff" name="data/phpdoc/~/tmp/bear.doc/BEAR/BEAR_Debug.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cb60fecaebdbcc795c5eedebee074e5e" name="data/phpdoc/~/tmp/bear.doc/BEAR/_BEAR---BEAR---Base.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0dbe9dfae6ffa395742f1283cc5a590d" name="data/phpdoc/~/tmp/bear.doc/BEAR/_BEAR---BEAR---bin---bear.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b3ac33565c7f4009ac1206e4467b2e2" name="data/phpdoc/~/tmp/bear.doc/BEAR/_BEAR---BEAR---debug.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b17773df1dbb43c45d297cbbd597ca28" name="data/phpdoc/~/tmp/bear.doc/BEAR/_BEAR---BEAR---live.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="81fa902282881f2a03d5b7bcdd8b3e22" name="data/phpdoc/~/tmp/bear.doc/BEAR/_BEAR.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9bff3ae6b7c5321cb19d30a205359651" name="data/phpdoc/~/tmp/bear.doc/BEAR_Agent/BEAR_Agent.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="eec9c6b0c09d474b04c73b3f4fe132f2" name="data/phpdoc/~/tmp/bear.doc/BEAR_Agent/_BEAR---Agent.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1c42a9f3499102c2f3ef3ce43e5257b6" name="data/phpdoc/~/tmp/bear.doc/BEAR_Annotate/_BEAR---Advice.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9b8a75d91bff6ff75c4218a49d41f0a0" name="data/phpdoc/~/tmp/bear.doc/BEAR_Annotate/_BEAR---Aspect---JoinPoint.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="63ce374c5d32b44496e613a09764fb26" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/BEAR_Aspect.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="51a3fb839135d1cf4416aa47fdc8a8d5" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/BEAR_Aspect_JoinPoint.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="96e090cd84eca7d984e5191ae8842b4b" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/BEAR_Aspect_After_Interface.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b1287ab9a665e7287e4eecabef083871" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/BEAR_Aspect_Around_Interface.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="031f8370d679ddb63fac14586138a76e" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/BEAR_Aspect_Before_Interface.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ef9e7f69e42345eb04d1970fddcc34e9" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/BEAR_Aspect_Weaver.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b37b037ed6bba0a162e6739fffbc5a43" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/_BEAR---Aspect---After---Interface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="01e7c46987f7c8c09d20e8c8a2804066" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/_BEAR---Aspect---Around---Interface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="04b61e3eee564dcb4e572e24d77c1bc3" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/_BEAR---Aspect---Before---Interface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="de74d9d96a956edfe47e1ffbf775e113" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/_BEAR---Aspect---Return---Interface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6816da1f33693cec35e73fcec1f55689" name="data/phpdoc/~/tmp/bear.doc/BEAR_Aspect/Aspect/_BEAR---Aspect---Weaver.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d8dc2b4ac65f16c3d2591da68592246d" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/BEAR_Cache.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1893261c6f13aae57ee35d08ddd35187" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/BEAR_Cache_Adapter.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c46d868c30f383c45015535839bed554" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/BEAR_Cache_Adapter_Apc.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="98f1edb04638fbeb7fadc3121f38967b" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/BEAR_Cache_Adapter_Lite.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="aed0902c7c91bfb56591c4ecc1921f3b" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/BEAR_Cache_Adapter_Memcache.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c9eeb04df505dfe28ef7193ab732d205" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/BEAR_Cache_Adapter_None.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d69241192d9150c21c329be80da9a931" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/_BEAR---Cache---Adapter---Apc.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="88d46922bfa981ce6265a4cea49166b2" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/_BEAR---Cache---Adapter---Lite.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a6fc10fa3f1fd12fd0bb0466317ad395" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/_BEAR---Cache---Adapter---Memcache.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c233e10b3b0605373ee6d62340aff572" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/_BEAR---Cache---Adapter---None.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="af8191f8d9a6a5179eafeab0c88cc2d8" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/_BEAR---Cache---Adapter.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="10d6daf417af93b617f578d1c249754f" name="data/phpdoc/~/tmp/bear.doc/BEAR_Cache/_BEAR---Cache.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="00bdcd84ab22f29ba9ee026e16025bfc" name="data/phpdoc/~/tmp/bear.doc/BEAR_Dev/_BEAR---Dev---Shell.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a12eab72f69b706d8219577796e30a4a" name="data/phpdoc/~/tmp/bear.doc/BEAR_Dev/Shell/BEAR_Dev_Shell.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c056db9d69d63697b704f84832b94e17" name="data/phpdoc/~/tmp/bear.doc/BEAR_Dev/Shell/BEAR_Shell_Front.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4438b4d3a36f489fcab80cc9b36a31b2" name="data/phpdoc/~/tmp/bear.doc/BEAR_Emoji/BEAR_Emoji.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4565db1ec1ca20b7648eb1f60ed6d2ee" name="data/phpdoc/~/tmp/bear.doc/BEAR_Emoji/BEAR_Emoji_Map.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2bef08a132f73fc68505cc3412d0015e" name="data/phpdoc/~/tmp/bear.doc/BEAR_Emoji/_BEAR---Emoji---Map.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="76afdf8d6762598a0901bd114fb2c4a1" name="data/phpdoc/~/tmp/bear.doc/BEAR_Emoji/_BEAR---Emoji.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f65b8778cb5c1e3fc86ea29b5da60c5f" name="data/phpdoc/~/tmp/bear.doc/BEAR_Error/BEAR_Error.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c82d6099cb554c2c4539ac6871a0bafc" name="data/phpdoc/~/tmp/bear.doc/BEAR_Error/_BEAR---Error.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b808a9e519174c997d44660324dc4cc2" name="data/phpdoc/~/tmp/bear.doc/BEAR_Exception/BEAR_Exception.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="83e6cbe0e80d4e0badfe5cf8688b899c" name="data/phpdoc/~/tmp/bear.doc/BEAR_Exception/_BEAR---Exception.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="97f429cf0c8c31ba39e9a87a5cbd29a8" name="data/phpdoc/~/tmp/bear.doc/BEAR_Form/BEAR_Form.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c945ba9951a92690244147eaf0c03ab1" name="data/phpdoc/~/tmp/bear.doc/BEAR_Form/_BEAR---Form.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a9b59b806bf9388a7ade93019790b165" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/BEAR_Img.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="aa9f81589328a570233eb1622ecdaba5" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/BEAR_Img_Adapter.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="92bc854abf0d65a9bef0997e7625eb03" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/BEAR_Img_Adapter_Cairo.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a7043cfeaf73cf046f273c976d7cb3bb" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/BEAR_Img_Adapter_GD.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2ebff020a73d5efe04695baaf7bcba1e" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/BEAR_Img_Adapter_Magick.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1588b3d1bd74427241810e431601c5f2" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/_BEAR---Img---Adapter---Cairo.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5e7ff4d0ced30eee4ecdc8ba4d3a2890" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/_BEAR---Img---Adapter---GD.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="06dbcc91f62bb2751e59638fcf359e76" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/_BEAR---Img---Adapter---Magick.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="48cdd425489e3c9d588afe5d995956fa" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/_BEAR---Img---Adapter.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="86cfa2879b0b27d927bea441f28dce6e" name="data/phpdoc/~/tmp/bear.doc/BEAR_Img/_BEAR---Img.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6b3381c8a9e4edf8e61102b2140e48b7" name="data/phpdoc/~/tmp/bear.doc/BEAR_Log/BEAR_Log.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="14bb918da7f610ecb27624ab5b1677dd" name="data/phpdoc/~/tmp/bear.doc/BEAR_Log/_BEAR---Log.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="be3debbb055e62eb55d7afb3be959efb" name="data/phpdoc/~/tmp/bear.doc/BEAR_Main/BEAR_Main.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ca2a9f83de9645cf58b88185a000ab0e" name="data/phpdoc/~/tmp/bear.doc/BEAR_Main/_BEAR---Main.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0308bad9cee443dbdb22ebbb1610757e" name="data/phpdoc/~/tmp/bear.doc/BEAR_Mdb2/BEAR_Mdb2.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a877d631c89d954ba146993b60a3403f" name="data/phpdoc/~/tmp/bear.doc/BEAR_Mdb2/_BEAR---Mdb2.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c10ccb0863c5ca930d7599137c52e633" name="data/phpdoc/~/tmp/bear.doc/BEAR_Page/BEAR_Error_Exception.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e7724c13eef10a3cca0eb684d4d8ec94" name="data/phpdoc/~/tmp/bear.doc/BEAR_Page/BEAR_Page.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6898ad7d15407dd9a29be381fe24d12e" name="data/phpdoc/~/tmp/bear.doc/BEAR_Page/_BEAR---Error---Exception.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6485f6edbfec8e707479280c75c6baf3" name="data/phpdoc/~/tmp/bear.doc/BEAR_Page/_BEAR---Page.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0ec1a34d8cc7841feca66394a21172cd" name="data/phpdoc/~/tmp/bear.doc/BEAR_Page/Exception/BEAR_Page_Exception.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7169daf493734afecb612588e4dff0f1" name="data/phpdoc/~/tmp/bear.doc/BEAR_Page/Exception/_BEAR---Page---Exception.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4e511f638e716287c4dc5af41d7915fa" name="data/phpdoc/~/tmp/bear.doc/BEAR_Pager/BEAR_Pager.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c871df255c5115700cfcdb69eedda291" name="data/phpdoc/~/tmp/bear.doc/BEAR_Pager/_BEAR---Pager.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e94ad55de9a55def2a6cf51f99be19c4" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/BEAR_Annotation.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0b71a2ad8e2401a5062c1de1809745e4" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/BEAR_Resource.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f718c6afc197da6ccddfef3b8f0f01bc" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/BEAR_Resource_Request.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="db19a9c8de97e507cf0191c38442db6f" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/BEAR_Resource_Request_Cache.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2b97d21c6af2ab46958c115ec54235f9" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/BEAR_Resource_Request_Execute.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e76a344879fc272480c701b4721ebdde" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/_BEAR---Annotation.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="62b6ee68fbc31a9f703e6745ee6c62be" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/_BEAR---Resource---Request---Cache.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0a61103f088d13126d5fcdd78a60a626" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/_BEAR---Resource---Request---Execute.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="25b3a3bb93bcd70d9bace7dc0e041c11" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/_BEAR---Resource---Request.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="15851550b45b8e74879b711b3706c886" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/_BEAR---Resource.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="63ec31b7ff9e4a5336a72e7e7eb6e925" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Client/_BEAR---Resource---Server---Client.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5f56538320476d61505ae88d18bbac63" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/BEAR_Resource_Execute_Function.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="42f3a6882f2db5fa8e72d84177f93108" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/BEAR_Resource_Execute_Http.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="757ea4b51921bc79e09f381e8405ec58" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/BEAR_Resource_Execute_Mock.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fbfc51ac20acb5317f1b36bc1c59aa6c" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/BEAR_Resource_Execute_Null.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a26d789ab9de00dd46df2bcfefbf85a2" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/BEAR_Resource_Execute_StaticFile.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a32b0a52e2675b8255be874baed6e7b0" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/BEAR_Resource_Execute_Vo.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="35ae13889a189f89ac9354de6d376256" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/BEAR_Resource_Request_Interface.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ad9a16893abea46b1bdf977f71403095" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/_BEAR---Resource---Execute---Function.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4d4c69f594052a4b002788dfeb875b69" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/_BEAR---Resource---Execute---Http.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b8781e01fa1c35f4872a6d2103efc47c" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/_BEAR---Resource---Execute---Mock.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="49f0201a4a54ca2c41696bc763a553ad" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/_BEAR---Resource---Execute---Null.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d8a48d0242c2288ef7598488442f6179" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/_BEAR---Resource---Execute---StaticFile.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="25646af7e2a2b95a141250e8f68503d8" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/_BEAR---Resource---Execute---Vo.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="584ff008b608f678e396ede3af1f64a3" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Execute/_BEAR---Resource---Request---Interface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2cd2a927a2aafdb23d5a5ca558430ae7" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Output/_BEAR---Resource---output---ajax.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ca3e63d2a19e68e35931e3dd2543f550" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Output/_BEAR---Resource---output---json.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f0dac192ed3784ebf0f3e74f760f20d0" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Output/_BEAR---Resource---output---php.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="92bf7c5bdf209bde6b9b7a5e09db2ea6" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Output/_BEAR---Resource---output---print.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="01d8ffc3e656b68daa92f19726ed3015" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Output/_BEAR---Resource---output---rss.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6d24ab4227cc8e955f4ef2715df41283" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Output/_BEAR---Resource---output---xml.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="18ad92fcb886185285c27e18e260daf9" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Server/BEAR_Resource_Server.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b71ef643b5fb19698b1fda95dbd68e0" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Server/BEAR_Resource_Server_Client.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c8316ffdd0e64f6add6cd0136a4916f1" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Server/BEAR_Resource_Server_Handler.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4f138e0a1cd201c444f1996788431bcd" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Server/_BEAR---Resource---Server---Handler.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="088f6283a4fac37ae73910fac861b5bc" name="data/phpdoc/~/tmp/bear.doc/BEAR_Resource/Server/_BEAR---Resource---Server.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3b7ad5da5d459c8c40ab958c9516ab34" name="data/phpdoc/~/tmp/bear.doc/BEAR_Session/BEAR_Session.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="bb744c9a690c314fd165699963d63dc8" name="data/phpdoc/~/tmp/bear.doc/BEAR_Session/_BEAR---Session.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f33200e09cd76e1aee967b5d8a5d4134" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/BEAR_Smarty.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="887cc02f3cff5dd9665015fae01f5902" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/_BEAR---Smarty---plugins---block.a.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6bb94c3afa8c72de46d4c85e80b32652" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/_BEAR---Smarty---plugins---block.mobile.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e95790dd5b6bedd950dfe5039a7cb785" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/_BEAR---Smarty---plugins---block.timer.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ee5b3cae45cc24d05d27264ea4caff17" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/_BEAR---Smarty---plugins---modifier.mb_truncate.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4b7ac4e4312655a992d359a81a22eb38" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/_BEAR---Smarty---plugins---modifier.printa.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="23cc23a1a59ed64b03c5ef6b1b9aa582" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/_BEAR---Smarty---plugins---modifier.qferror.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8f36c51877b0421e43a65c7acd735ffd" name="data/phpdoc/~/tmp/bear.doc/BEAR_Smarty/_BEAR---Smarty.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ada5dfdd554acef1e84538c549e595e0" name="data/phpdoc/~/tmp/bear.doc/BEAR_Util/BEAR_Util.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ca174f3e6d8897ae3a8466f658002ab3" name="data/phpdoc/~/tmp/bear.doc/BEAR_Util/_BEAR---Util.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="537c443e7c79b34cf243e49e5fa536f0" name="data/phpdoc/~/tmp/bear.doc/BEAR_Vo/BEAR_Vo.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5d1beade55482fa40d72ab93d3d07b60" name="data/phpdoc/~/tmp/bear.doc/BEAR_Vo/BEAR_Vo_Interface.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="17306b0b3be1c5f0a6205963d44051ab" name="data/phpdoc/~/tmp/bear.doc/BEAR_Vo/_BEAR---Vo---Interface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5bd450b7b8c1ca618af786b8707daea6" name="data/phpdoc/~/tmp/bear.doc/BEAR_Vo/_BEAR---Vo.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8129d0e567665ac25b780ffe344264f3" name="data/phpdoc/~/tmp/bear.doc/default/BEAR_Vo_Iterator.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f09b42e217e4e72e222adb20a9efd46c" name="data/phpdoc/~/tmp/bear.doc/default/_BEAR---Vo---Iterator.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5189118af3e84698c51db5f8cac5525a" name="data/phpdoc/~/tmp/bear.doc/media/background.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4c480a60db1ab64317fe351a24396eb1" name="data/phpdoc/~/tmp/bear.doc/media/empty.png" role="php" />
+   <file baseinstalldir="BEAR" md5sum="137c601a0d33ea5326fcb9ed1896cd29" name="data/phpdoc/~/tmp/bear.doc/media/style.css" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c1b695243f00174a4683345759692925" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Agent__BEARAgent.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8ee94d6601a3e5b4c32036be9a6b7d1c" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Annotate__BEARAdvice.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1b46639ac0a3ea5a1145d8bbad8c2489" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Annotate__BEARAspectJoinPoint.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fb05942057af494671424081b41ee219" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Aspect_Aspect_BEARAspectAfterInterface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="58dab397034e95c98c33ab824d17fa61" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Aspect_Aspect_BEARAspectAroundInterface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="46302e4b68c442e5c720f8ef8b4301d0" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Aspect_Aspect_BEARAspectBeforeInterface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e74ed2bbc59c292a1150a445d602356f" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Aspect_Aspect_BEARAspectReturnInterface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fd520108a44fb3ca280f45b770c2d06c" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Aspect_Aspect_BEARAspectWeaver.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4096686e7181380d13cbe6c1677bea52" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Cache__BEARCache.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7d0a8b40648ebb7859d800941aeeb546" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Cache__BEARCacheAdapter.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="253ac4bf976364bd6f17227f5810a719" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Cache__BEARCacheAdapterApc.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="077097f264ea0839dc7582fc80055976" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Cache__BEARCacheAdapterLite.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="33fc55f195abbb64ad1aa863d4b2a7f4" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Cache__BEARCacheAdapterMemcache.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ac0d1d58eeabc211cd90dc174b8e4b9a" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Cache__BEARCacheAdapterNone.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a2812e5ee0721f00c6bbe0994103d3a8" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Dev__BEARDevShell.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="81c59e8985a8972b5ec20ed343965f0d" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Emoji__BEAREmoji.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d8f135e555b136eec621d041ccc30247" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Emoji__BEAREmojiMap.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0fb4ec602230faad34b84a47a032dc2a" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Error__BEARError.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="56ae647ec9e02f56d875e58ef5d7e79a" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Exception__BEARException.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="be5542a39a427d49bb6abdba3b8200de" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Form__BEARForm.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="916afe80b2d87974755578fe86092e6f" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Img__BEARImg.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6f8431e44eb5d98af5e76dff7085ad88" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Img__BEARImgAdapter.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0ae69ce4df7d6ccca8a1e20d6f8c7f16" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Img__BEARImgAdapterCairo.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="25c771004931528db8de4a6f87ef943a" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Img__BEARImgAdapterGD.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ac789c322a0affef4fa607c2f5be3945" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Img__BEARImgAdapterMagick.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e5148de162757dff949baa7f6fe5f55b" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Log__BEARLog.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="65fab1e4079d40fdee56ad42905fee55" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Main__BEARMain.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="59f15f791c990514003cc4a1439cf8b2" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Mdb2__BEARMdb2.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0c3599a785f47bdfcc551408cbd52580" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Pager__BEARPager.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="aca728a8381a8cd60ec3fe641600df00" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Page_Exception_BEARPageException.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ba87553add94d328736f6ada06d8fb75" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Page__BEARErrorException.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="32362e50de446ca3689d267c44df752e" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Page__BEARPage.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="03674c6d40fbaf0d1cc520b887a733c4" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Client_BEARResourceServerClient.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="38541e5dc6e16e5ee402a919dfe95ca2" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Execute_BEARResourceExecuteFunction.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="09208714a4b70b22ae9ceb4c3fa780fb" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Execute_BEARResourceExecuteHttp.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="13d0469ecfe856b45bbd0b3ef0fd5c90" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Execute_BEARResourceExecuteMock.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="484f90c1184becc1741c9632d09a1a8a" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Execute_BEARResourceExecuteNull.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e01d29ba2927a24b19c8ebe8a2f6c4e4" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Execute_BEARResourceExecuteStaticFile.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="82fa8595f112712af7f500e99d912490" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Execute_BEARResourceExecuteVo.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4ea753725414c956959d58c0e81944d0" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Execute_BEARResourceRequestInterface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5629ecc80d89706705415b4128c217c2" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Output_BEARResourceoutputajax.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3e670f4503011619edbc073df97abbf7" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Output_BEARResourceoutputjson.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b1832dc4fa9293384ce06400330a7b37" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Output_BEARResourceoutputphp.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f62fb3aa5a788c279b61cbb462593c1f" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Output_BEARResourceoutputprint.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="59f70167d52fc835ce140e52bc5befb7" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Output_BEARResourceoutputrss.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5a4d1d135bb36793d6e91afc72275d83" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Output_BEARResourceoutputxml.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d194d8ec27e72caece197aaf5052599c" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Server_BEARResourceServer.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8d53374aeb52085b25d3e5576af7ef69" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource_Server_BEARResourceServerHandler.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8aa2e731d002bf85b7010ea30fc390f6" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource__BEARAnnotation.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e8e7e5e7aefcc9d6660f5ef1ff0b57de" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource__BEARResource.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ca6111ec8b6c1d55a3f65ddcfb6b54bd" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource__BEARResourceRequest.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e1841f434406193ea8e3e22442aa026b" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource__BEARResourceRequestCache.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d0497a1e924f494be11ca40310a0473c" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Resource__BEARResourceRequestExecute.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3df1c375bcb959437260235dda22b56e" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Session__BEARSession.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dde7c7520b5b9774b709dd4c83b6a210" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Smarty__BEARSmarty.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="06b1c792f443d34c0e5e7b534bd7dc53" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Smarty__BEARSmartypluginsblock.a.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="988e3af0a9874df60eea9736f5aa1b1c" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Smarty__BEARSmartypluginsblock.mobile.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="38e71ecdda197a4e515915d072dbfcea" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Smarty__BEARSmartypluginsblock.timer.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5be9263aa9fb7cc6028c3e4fbbb26a33" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Smarty__BEARSmartypluginsmodifier.mb_truncate.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f1c22f432cb05f4e5f632268ae7d5b2d" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Smarty__BEARSmartypluginsmodifier.printa.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5020361a16a7a69bdaaaddcd37c517be" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Smarty__BEARSmartypluginsmodifier.qferror.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7b323205318ffc0e32881c5af7df2fcb" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Util__BEARUtil.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9a2791999e6b646ae8bd6ffcd47b0b01" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Vo__BEARVo.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="883094068b6ae367d3273fdd062c41d2" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR_Vo__BEARVoInterface.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="70c2450ed2f36eab9b41d64046dc4f6f" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR__BEAR.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0899836af690401eb8d81fab91ed6fc5" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR__BEARBEARBase.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="99dc79afd2f4467a015975bd9cd63cca" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR__BEARBEARbinbear.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d87ebe85413525b3564c9b3c9e1e0dc5" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR__BEARBEARdebug.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d48ebec5c291db466471c0578fe9e0bd" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_BEAR__BEARBEARlive.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="70eb8e4f586c61f92bd36aa44dbaef97" name="data/phpdoc/~/tmp/bear.doc/__filesource/fsource_default__BEARVoIterator.php.html" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a26904a510b95a36a2a41292800eb833" name="data/template/class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e602c3752d706bd12f5a47bf734854b9" name="data/template/index.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="dcb80971a258535ddb4711683973c5ca" name="data/template/index.tpl" role="php" />
+   <file baseinstalldir="BEAR" md5sum="80a35e5183e09107feeeaa3e4340b4cb" name="data/template/smarty/block.example.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b21d87f7beaf9f2df6cfe26defcd7ee6" name="data/template/smarty/modifier.example.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e0e7fb31fcccccbb091e921590f87212" name="inc/debuglib.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4be6bdb33d7db7697faa4cc053528bba" name="inc/LICENCE.txt" role="php" />
+   <file baseinstalldir="BEAR" md5sum="68de89320997387108073ea33f45a789" name="inc/FirePHPCore/fb.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8368a226c0a199048d67e2ee8a0143cc" name="inc/FirePHPCore/FirePHP.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d382ee5ae0c82bb17e1d78c30dfbc705" name="inc/FirePHPCore/LICENSE" role="php" />
+   <file baseinstalldir="BEAR" md5sum="51f85526f094d57ff050a384fb11dc56" name="inc/jquery/jquery-1.3.1.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5d4c7816890f3308da6126f5fa65c979" name="inc/jquery/jquery-1.3.1.min.js" role="php" />
+   <file baseinstalldir="BEAR" md5sum="68ad62c64cc6c620126241fd429e68fe" name="inc/Smarty/COPYING.lib" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5edd783edf6bdff1f22cb878aa98aa11" name="inc/Smarty/README" role="php" />
+   <file baseinstalldir="BEAR" md5sum="cfd2dac768e653a0d00f9cb2c63156c1" name="inc/Smarty/libs/Config_File.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="def6c6e062941c8b2986f9f977b26307" name="inc/Smarty/libs/debug.tpl" role="php" />
+   <file baseinstalldir="BEAR" md5sum="647be82d34a836325987bf07929630c2" name="inc/Smarty/libs/Smarty.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0be56f82ac56ce537f756eb9120cfe7f" name="inc/Smarty/libs/Smarty_Compiler.class.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c98832bd718c94629c732b5d4c2980cb" name="inc/Smarty/libs/internals/core.assemble_plugin_filepath.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4c2dd142c1c59e101b2f60cfc7a7cdc2" name="inc/Smarty/libs/internals/core.assign_smarty_interface.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a12f6e4653dc814369202e0ed57206b0" name="inc/Smarty/libs/internals/core.create_dir_structure.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="297b9baf349e7f32e8e815612e823e3c" name="inc/Smarty/libs/internals/core.display_debug_console.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ba78ea6d4112d4325b00e4b8101497c6" name="inc/Smarty/libs/internals/core.get_include_path.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="72eb40e8367f77f0bd251e15a5bd4f5f" name="inc/Smarty/libs/internals/core.get_microtime.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e0fccd538d6f0ed8915d39cc2f9dd860" name="inc/Smarty/libs/internals/core.get_php_resource.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="7ea83dd65e64bc0bc893d44096ec61e0" name="inc/Smarty/libs/internals/core.is_secure.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="83e22de7a251fef6a033769b35989bf6" name="inc/Smarty/libs/internals/core.is_trusted.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d60028c542ec06749cd2d381bc07d0c2" name="inc/Smarty/libs/internals/core.load_plugins.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="08d531fb688eed7253b316b11436e512" name="inc/Smarty/libs/internals/core.load_resource_plugin.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2a846ebfec89211b7090149052374059" name="inc/Smarty/libs/internals/core.process_cached_inserts.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6da8abe9ab2050618fd6e344fbc8059b" name="inc/Smarty/libs/internals/core.process_compiled_include.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="e7de28f374768f8b319687a34e226c80" name="inc/Smarty/libs/internals/core.read_cache_file.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="08209df8f3113b0d8322bcac3b5e055b" name="inc/Smarty/libs/internals/core.rmdir.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8834d9e9a8aa8473244d74096638b5c2" name="inc/Smarty/libs/internals/core.rm_auto.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f6452eb1f0f65cf3b07634228ea4c938" name="inc/Smarty/libs/internals/core.run_insert_handler.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0d87e492eb18ec8b4fa492f2ac34c163" name="inc/Smarty/libs/internals/core.smarty_include_php.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6e0ca7e246ee7a6fea7e2e6e4381332b" name="inc/Smarty/libs/internals/core.write_cache_file.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ff7944e8092eaf7c2ee97d865df29788" name="inc/Smarty/libs/internals/core.write_compiled_include.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="caa79e832d4587991606dd9a0988c852" name="inc/Smarty/libs/internals/core.write_compiled_resource.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="23f99e19895028592cff61325b6ed0b1" name="inc/Smarty/libs/internals/core.write_file.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f4e1cc15997ff132066f5e4e09e92054" name="inc/Smarty/libs/plugins/block.textformat.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b4f1eb6f5a8cde9dbec9f5fb1ccb108c" name="inc/Smarty/libs/plugins/compiler.assign.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0abdfebfea185a7b1a727d9546e244be" name="inc/Smarty/libs/plugins/function.assign_debug_info.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fa6466c59cab6333c64ac270dd6c53b1" name="inc/Smarty/libs/plugins/function.config_load.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9531e844efd007c593dadd6173cb0bbd" name="inc/Smarty/libs/plugins/function.counter.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="db7b2e51bd5e26f93032929dcb2d531b" name="inc/Smarty/libs/plugins/function.cycle.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="4963d564da17a2578fc5f56d9c53e7bc" name="inc/Smarty/libs/plugins/function.debug.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3fedd0e2a4c285200c12fe6427bc2739" name="inc/Smarty/libs/plugins/function.eval.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="51259f99b6554fa1a6a60013a5e7880a" name="inc/Smarty/libs/plugins/function.fetch.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="a05460918e36fd9ef66d955754868a3e" name="inc/Smarty/libs/plugins/function.html_checkboxes.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="de11daabe07795fe4229b8d0185489dd" name="inc/Smarty/libs/plugins/function.html_image.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b634076ab0424a5b8310ff733c5615a6" name="inc/Smarty/libs/plugins/function.html_options.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6a00315efe8f8202823ade3bf3e6e513" name="inc/Smarty/libs/plugins/function.html_radios.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ad1d200bf750d98379cfc5507eac681d" name="inc/Smarty/libs/plugins/function.html_select_date.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ac7c160c72b293e6509840a5aba9a429" name="inc/Smarty/libs/plugins/function.html_select_time.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="d7ade8af24efeb33f852bef185004521" name="inc/Smarty/libs/plugins/function.html_table.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="03b5b66b3c6221c34b0d27c030dc7b60" name="inc/Smarty/libs/plugins/function.mailto.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0b33b8526bcff403e3d650c3d7eb982b" name="inc/Smarty/libs/plugins/function.math.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1e8b78080d08a386ba297c0dbb7c3a7b" name="inc/Smarty/libs/plugins/function.popup.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b2353a42807535109e1f037c0d51f19c" name="inc/Smarty/libs/plugins/function.popup_init.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="70f58c49c5bd2851be11a3d67a92d2a4" name="inc/Smarty/libs/plugins/modifier.capitalize.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="9dbc6c2d6d78165d9d0ffae481509b6a" name="inc/Smarty/libs/plugins/modifier.cat.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="91694b84f8b86aa551ff49ced16dbd11" name="inc/Smarty/libs/plugins/modifier.count_characters.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c64e0f47b6435424a7bf9647eed06c1e" name="inc/Smarty/libs/plugins/modifier.count_paragraphs.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="c22e43e96e6ecd34cc18bc5235d59337" name="inc/Smarty/libs/plugins/modifier.count_sentences.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="073467c9ea7434647bb9ff27fe09183b" name="inc/Smarty/libs/plugins/modifier.count_words.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5d57183abba166f670d0b8649086f516" name="inc/Smarty/libs/plugins/modifier.date_format.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="083998f71b350e0f2bea5b46477680c2" name="inc/Smarty/libs/plugins/modifier.debug_print_var.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="11c16bd6f7dde6d576d7f93433652925" name="inc/Smarty/libs/plugins/modifier.default.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="3bd0b2464f2fe8e2688da39079d84190" name="inc/Smarty/libs/plugins/modifier.escape.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ea1f5db88c00e850c3968e434eadb074" name="inc/Smarty/libs/plugins/modifier.indent.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="5520933762ceac07d49e658c52587279" name="inc/Smarty/libs/plugins/modifier.lower.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="1d16b98e8ec34aac69f0827fab1dc999" name="inc/Smarty/libs/plugins/modifier.nl2br.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8410e0a83750cd1b9553b3e8fc861ab5" name="inc/Smarty/libs/plugins/modifier.regex_replace.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b7d144b301a878c3015f9ba96b1922c6" name="inc/Smarty/libs/plugins/modifier.replace.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="66993120ab60306acd278a327c5af448" name="inc/Smarty/libs/plugins/modifier.spacify.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="401048107fc62eecf175d2a0ab997161" name="inc/Smarty/libs/plugins/modifier.string_format.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b1281f77297db8c1e50bc1fd883ebd78" name="inc/Smarty/libs/plugins/modifier.strip.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="481144a581e2d56a2182add2e09c5641" name="inc/Smarty/libs/plugins/modifier.strip_tags.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="da35c3d0a2dfc9ea11c32b3a10246aa7" name="inc/Smarty/libs/plugins/modifier.truncate.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0ef0e9784273f5d5384f34ad303bd15e" name="inc/Smarty/libs/plugins/modifier.upper.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="b80bdf801ac29e3aa4662a0428b676e4" name="inc/Smarty/libs/plugins/modifier.wordwrap.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="6535eaea7108bacf0bd81d45983eced2" name="inc/Smarty/libs/plugins/outputfilter.trimwhitespace.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="2f7221015323ba27d2ed5ae20450fa0d" name="inc/Smarty/libs/plugins/shared.escape_special_chars.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="29ffe6553da8fda72147a12273105e10" name="inc/Smarty/libs/plugins/shared.make_timestamp.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="fc078d17510880bb8b0cc4454150ab63" name="inc/spyc-0.2.5/CHANGES" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f9b9503f9a04aadd46e3f30e37a7833a" name="inc/spyc-0.2.5/README" role="php" />
+   <file baseinstalldir="BEAR" md5sum="79a891ed4cc5505e709e97a82078b34b" name="inc/spyc-0.2.5/spyc.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="8dde14b9fe3102dbab275f12bab62f67" name="inc/spyc-0.2.5/spyc.php4" role="php" />
+   <file baseinstalldir="BEAR" md5sum="14e1e38035022240435c0b00e36f60f7" name="inc/spyc-0.2.5/spyc.yaml" role="php" />
+   <file baseinstalldir="BEAR" md5sum="aadac1ff7fb97364e934e845e861f2d4" name="inc/spyc-0.2.5/test.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="ea540295aafe1a154271a82fa4a5bdec" name="inc/spyc-0.2.5/test.php5" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0b9d00e019ff76680b83533f14208f85" name="inc/spyc-0.2.5/yaml-dump.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="44484c8274766d3c12af0df97d3dea46" name="inc/spyc-0.2.5/yaml-load.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="f5c62fa37c9849e7500c4483231b0edd" name="tests/BEARTest.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="aceb5dbde2d20a0c2a9b4ffc9282a851" name="tests/_BEAR_CacheTest.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="c8ee433dff25baa716d4aa695eb0a434" name="tests/_BEAR_PageTest.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="fd53ed37fa5feb7d626a268a4aa4abb9" name="tests/files/example.ini" role="test" />
+   <file baseinstalldir="BEAR" md5sum="f0ed8c5c2f267b2694c40a2808f69a41" name="tests/files/example.php" role="test" />
+   <file baseinstalldir="BEAR" md5sum="d1ff81139d562adb15103d8ac15a1dae" name="tests/files/example.xml" role="test" />
+   <file baseinstalldir="BEAR" md5sum="982b8559c7b3dab38da85a720dff9e9b" name="BEAR.php" role="php" />
+   <file baseinstalldir="BEAR" md5sum="0d34774b7fbf48ef53aa1c79276c55ff" name="LICENCE.txt" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+    <min>1.7.0</min>
+   </package>
+   <package>
+    <name>HTML_QuickForm</name>
+    <channel>pear.php.net</channel>
+    <min>3.2.5</min>
+   </package>
+   <package>
+    <name>HTML_QuickForm_Renderer_Tableless</name>
+    <channel>pear.php.net</channel>
+    <min>0.6.0</min>
+   </package>
+   <package>
+    <name>HTTP_Upload</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.1</min>
+   </package>
+   <package>
+    <name>HTTP_Download</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.1</min>
+   </package>
+   <package>
+    <name>HTTP_Client</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.0</min>
+   </package>
+   <package>
+    <name>HTTP_Session2</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.2</min>
+   </package>
+   <package>
+    <name>Log</name>
+    <channel>pear.php.net</channel>
+    <min>1.9.3</min>
+   </package>
+   <package>
+    <name>Net_UserAgent_Mobile</name>
+    <channel>pear.php.net</channel>
+    <min>0.26.0</min>
+   </package>
+   <package>
+    <name>Pager</name>
+    <channel>pear.php.net</channel>
+    <min>2.3.6</min>
+   </package>
+   <package>
+    <name>Spreadsheet_Excel_Writer</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.0</min>
+   </package>
+   <package>
+    <name>XML_RPC</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.5</min>
+   </package>
+   <package>
+    <name>XML_Serializer</name>
+    <channel>pear.php.net</channel>
+    <min>0.18.0</min>
+   </package>
+   <package>
+    <name>I18N_UnicodeString</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.1</min>
+   </package>
+   <package>
+    <name>XML_RSS</name>
+    <channel>pear.php.net</channel>
+    <min>0.9.10</min>
+   </package>
+   <package>
+    <name>MDB2</name>
+    <channel>pear.php.net</channel>
+    <min>2.4.0</min>
+   </package>
+   <package>
+    <name>MDB2_Driver_mysqli</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.0</min>
+   </package>
+   <package>
+    <name>XML_RSS</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.2</min>
+   </package>
+   <package>
+    <name>Var_Dump</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.3</min>
+   </package>
+   <package>
+    <name>Text_Highlighter</name>
+    <channel>pear.php.net</channel>
+    <min>0.7.1</min>
+   </package>
+   <package>
+    <name>Config</name>
+    <channel>pear.php.net</channel>
+    <min>1.10.0</min>
+   </package>
+   <package>
+    <name>File</name>
+    <channel>pear.php.net</channel>
+    <min>1.3.0</min>
+   </package>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.6</min>
+   </package>
+   <package>
+    <name>Console_Color</name>
+    <channel>pear.php.net</channel>
+    <min>1.0.2</min>
+   </package>
+   <package>
+    <name>Console_Table</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.3</min>
+   </package>
+   <package>
+    <name>File_SearchReplace</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.2</min>
+   </package>
+   <package>
+    <name>HTTP_Request2</name>
+    <channel>pear.php.net</channel>
+    <min>0.3.0</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Zend</name>
+    <channel>zend.googlecode.com/svn</channel>
+    <min>1.6.1</min>
+   </package>
+   <package>
+    <name>PEAR_PackageFileManager</name>
+    <channel>pear.php.net</channel>
+    <min>1.6.0a7</min>
+   </package>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+    <min>1.3.2</min>
+   </package>
+   <package>
+    <name>PhpDocumentor</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.2</min>
+   </package>
+   <package>
+    <name>PHP_CodeSniffer</name>
+    <channel>pear.php.net</channel>
+    <min>1.1.0</min>
+   </package>
+   <package>
+    <name>FirePHPCore</name>
+    <channel>pear.firephp.org</channel>
+    <min>0.2.1</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="bear" name="BEAR/BEAR/bin/bear.sh" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.5.61</release>
+    <api>0.5.61</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2009-04-23</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">The BSD License</license>
+   <notes>BEAR PHP Framework Package</notes>
+  </release>
+ </changelog>
+</package>
