@@ -13,7 +13,23 @@
 
         <a>
             <r>
-                <v>0.9.08</v>
+                <v>0.9.11</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.9.10</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.9.9</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.9.9a1</v>
+                <s>beta</s>
+            </r>
+            <r>
+                <v>0.9.3</v>
                 <s>beta</s>
             </r>
             <r>
@@ -224,7 +240,23 @@
         </a>
 
         <deps>
-            <v>0.9.08</v>
+            <v>0.9.11</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.6.0";}s:7:"package";a:3:{s:4:"name";s:5:"Panda";s:7:"channel";s:21:"pear.bear-project.net";s:3:"min";s:6:"0.3.38";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:24:"PEAR_PackageFileManager2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:13:"PhpDocumentor";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.2";}i:2;a:3:{s:4:"name";s:15:"PHP_CodeSniffer";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.1.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.9.10</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.6.0";}s:7:"package";a:3:{s:4:"name";s:5:"Panda";s:7:"channel";s:21:"pear.bear-project.net";s:3:"min";s:6:"0.3.38";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:24:"PEAR_PackageFileManager2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:13:"PhpDocumentor";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.2";}i:2;a:3:{s:4:"name";s:15:"PHP_CodeSniffer";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.1.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.9.9</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.6.0";}s:7:"package";a:3:{s:4:"name";s:5:"Panda";s:7:"channel";s:21:"pear.bear-project.net";s:3:"min";s:6:"0.3.38";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:24:"PEAR_PackageFileManager2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:13:"PhpDocumentor";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.2";}i:2;a:3:{s:4:"name";s:15:"PHP_CodeSniffer";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.1.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.9.9a1</v>
+            <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.6.0";}s:7:"package";a:3:{s:4:"name";s:5:"Panda";s:7:"channel";s:21:"pear.bear-project.net";s:3:"min";s:6:"0.3.38";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:24:"PEAR_PackageFileManager2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:13:"PhpDocumentor";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.2";}i:2;a:3:{s:4:"name";s:15:"PHP_CodeSniffer";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.1.0";}}}}</d>
+        </deps>
+        <deps>
+            <v>0.9.3</v>
             <d>a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.6.0";}s:7:"package";a:3:{s:4:"name";s:5:"Panda";s:7:"channel";s:21:"pear.bear-project.net";s:3:"min";s:6:"0.3.38";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:3:{s:4:"name";s:24:"PEAR_PackageFileManager2";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0.0";}i:1;a:3:{s:4:"name";s:13:"PhpDocumentor";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.4.2";}i:2;a:3:{s:4:"name";s:15:"PHP_CodeSniffer";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.1.0";}}}}</d>
         </deps>
         <deps>

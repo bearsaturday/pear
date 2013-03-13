@@ -1,15 +1,15 @@
 {
     "pear-bear\/BEAR": {
         "versions": {
-            "0.9.08": {
+            "0.9.11": {
                 "name": "pear-bear\/BEAR",
                 "description": "PHP Framework Package",
                 "dist": {
                     "type": "pear",
-                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.08.tgz"
+                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.11.tgz"
                 },
-                "version": "0.9.08",
-                "time": "2012-09-13T10:48:13+09:00",
+                "version": "0.9.11",
+                "time": "2013-02-19T07:13:32+09:00",
                 "require": {
                     "php": ">=5.2.0",
                     "pear-bear\/Panda": ">=0.3.38"
@@ -22,15 +22,147 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
                 "autoload": {
                     "classmap": {
                         "1": "BEAR",
-                        "729": "tests",
-                        "733": "BEAR.php"
+                        "756": "tests",
+                        "760": "BEAR.php"
+                    }
+                }
+            },
+            "0.9.10": {
+                "name": "pear-bear\/BEAR",
+                "description": "PHP Framework Package",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.10.tgz"
+                },
+                "version": "0.9.10",
+                "time": "2012-12-03T08:48:19+09:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-bear\/Panda": ">=0.3.38"
+                },
+                "suggest": {
+                    "pear-pear\/PEAR_PackageFileManager2": ">=1.0.0",
+                    "pear-pear\/PhpDocumentor": ">=1.4.2",
+                    "pear-pear\/PHP_CodeSniffer": ">=1.1.0"
+                },
+                "authors": [
+                    {
+                        "name": "Koriyama",
+                        "email": "akihito.koriyama@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "BEAR",
+                        "747": "tests",
+                        "751": "BEAR.php"
+                    }
+                }
+            },
+            "0.9.9": {
+                "name": "pear-bear\/BEAR",
+                "description": "PHP Framework Package",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.9.tgz"
+                },
+                "version": "0.9.9",
+                "time": "2012-11-30T03:20:14+09:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-bear\/Panda": ">=0.3.38"
+                },
+                "suggest": {
+                    "pear-pear\/PEAR_PackageFileManager2": ">=1.0.0",
+                    "pear-pear\/PhpDocumentor": ">=1.4.2",
+                    "pear-pear\/PHP_CodeSniffer": ">=1.1.0"
+                },
+                "authors": [
+                    {
+                        "name": "Koriyama",
+                        "email": "akihito.koriyama@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "BEAR",
+                        "756": "tests",
+                        "760": "BEAR.php"
+                    }
+                }
+            },
+            "0.9.9a1": {
+                "name": "pear-bear\/BEAR",
+                "description": "PHP Framework Package",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.9a1.tgz"
+                },
+                "version": "0.9.9a1",
+                "time": "2012-12-03T08:45:42+09:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-bear\/Panda": ">=0.3.38"
+                },
+                "suggest": {
+                    "pear-pear\/PEAR_PackageFileManager2": ">=1.0.0",
+                    "pear-pear\/PhpDocumentor": ">=1.4.2",
+                    "pear-pear\/PHP_CodeSniffer": ">=1.1.0"
+                },
+                "authors": [
+                    {
+                        "name": "Koriyama",
+                        "email": "akihito.koriyama@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "BEAR",
+                        "747": "tests",
+                        "751": "BEAR.php"
+                    }
+                }
+            },
+            "0.9.3": {
+                "name": "pear-bear\/BEAR",
+                "description": "PHP Framework Package",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.3.tgz"
+                },
+                "version": "0.9.3",
+                "time": "2012-11-30T02:23:10+09:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-bear\/Panda": ">=0.3.38"
+                },
+                "suggest": {
+                    "pear-pear\/PEAR_PackageFileManager2": ">=1.0.0",
+                    "pear-pear\/PhpDocumentor": ">=1.4.2",
+                    "pear-pear\/PHP_CodeSniffer": ">=1.1.0"
+                },
+                "authors": [
+                    {
+                        "name": "Koriyama",
+                        "email": "akihito.koriyama@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "BEAR",
+                        "756": "tests",
+                        "760": "BEAR.php"
                     }
                 }
             },
@@ -82,7 +214,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -140,7 +272,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -198,7 +330,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -256,7 +388,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -314,7 +446,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -372,7 +504,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -430,7 +562,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -488,7 +620,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -546,7 +678,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -603,7 +735,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -660,7 +792,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -717,7 +849,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -774,7 +906,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -831,7 +963,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -888,7 +1020,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -945,7 +1077,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1002,7 +1134,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1059,7 +1191,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1116,7 +1248,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1173,7 +1305,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1233,7 +1365,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1294,7 +1426,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1355,7 +1487,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1418,7 +1550,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1481,7 +1613,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1544,7 +1676,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1607,7 +1739,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1670,7 +1802,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1733,7 +1865,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1796,7 +1928,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1859,7 +1991,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1922,7 +2054,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -1980,7 +2112,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2037,7 +2169,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2094,7 +2226,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2151,7 +2283,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2208,7 +2340,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2265,7 +2397,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2322,7 +2454,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2379,7 +2511,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2434,7 +2566,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2489,7 +2621,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2544,7 +2676,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2599,7 +2731,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2654,7 +2786,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2708,7 +2840,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2761,7 +2893,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2813,7 +2945,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2862,7 +2994,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2911,7 +3043,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2958,7 +3090,7 @@
                 "authors": [
                     {
                         "name": "Koriyama",
-                        "email": "koriyama@bear-project.net",
+                        "email": "akihito.koriyama@gmail.com",
                         "homepage": ""
                     }
                 ],
@@ -2978,7 +3110,7 @@
         "maintainers": [
             {
                 "name": "Koriyama",
-                "email": "koriyama@bear-project.net",
+                "email": "akihito.koriyama@gmail.com",
                 "homepage": ""
             }
         ]
