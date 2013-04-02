@@ -3,6 +3,10 @@
     <p>BEAR</p>
     <c>pear.bear-project.net</c>
     <r>
+        <v>0.9.14</v>
+        <s>beta</s>
+    </r>
+    <r>
         <v>0.9.13</v>
         <s>beta</s>
     </r>

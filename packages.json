@@ -1,6 +1,62 @@
 {
     "pear-bear\/BEAR": {
         "versions": {
+            "0.9.14": {
+                "name": "pear-bear\/BEAR",
+                "description": "PHP Framework Package",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.14.tgz"
+                },
+                "version": "0.9.14",
+                "time": "2013-04-02T08:52:04+02:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "pear-bear\/Panda": ">=0.3.38",
+                    "pear-pear\/Cache_Lite": ">=1.7.0",
+                    "pear-pear\/HTML_QuickForm": ">=3.2.5",
+                    "pear-pear\/HTML_QuickForm_Renderer_Tableless": ">=0.6.0",
+                    "pear-pear\/HTTP_Request2": ">=1.1.0",
+                    "pear-pear\/HTTP_Session2": ">=0.7.2",
+                    "pear-pear\/Log": ">=1.9.3",
+                    "pear-pear\/Net_UserAgent_Mobile": ">=0.26.0",
+                    "pear-pear\/Pager": ">=2.3.6",
+                    "pear-pear\/Spreadsheet_Excel_Writer": ">=0.9.0",
+                    "pear-pear\/XML_RPC": ">=1.4.5",
+                    "pear-pear\/XML_Serializer": ">=0.18.0",
+                    "pear-pear\/I18N_UnicodeString": ">=0.2.1",
+                    "pear-pear\/XML_RSS": ">=0.7.2",
+                    "pear-pear\/MDB2": ">=2.4.0",
+                    "pear-pear\/MDB2_Driver_mysql": ">=1.4.0",
+                    "pear-pear\/MDB2_Driver_mysqli": ">=1.4.0",
+                    "pear-pear\/Var_Dump": ">=1.0.3",
+                    "pear-pear\/Text_Highlighter": ">=0.7.1",
+                    "pear-pear\/Config": ">=1.10.0",
+                    "pear-pear\/File": ">=1.3.0",
+                    "pear-pear\/Console_CommandLine": ">=1.0.6",
+                    "pear-pear\/Console_Color": ">=1.0.2",
+                    "pear-pear\/Console_Table": ">=1.1.3",
+                    "pear-pear\/File_SearchReplace": ">=1.1.2",
+                    "pear-pear\/HTML_CSS": ">=1.5.4",
+                    "pear-pear\/Net_Server": ">=1.0.2",
+                    "pear-firephp\/FirePHPCore": ">=0.3.1",
+                    "pear-pear\/Services_JSON": ">=1.0.2"
+                },
+                "authors": [
+                    {
+                        "name": "Koriyama",
+                        "email": "akihito.koriyama@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "BEAR",
+                        "262": "tests",
+                        "566": "BEAR.php"
+                    }
+                }
+            },
             "0.9.13": {
                 "name": "pear-bear\/BEAR",
                 "description": "PHP Framework Package",
