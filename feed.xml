@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.bear-project.net</id>
-    <updated>2013-03-13T04:27:35+01:00</updated>
+    <updated>2013-04-02T07:53:07+02:00</updated>
     <title>BEAR PEAR channel Latest Releases</title>
     <link href="http://pear.bear-project.net/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>BEAR 0.9.13 (beta)</title>
+        <link href="http://pear.bear-project.net/get/BEAR-0.9.13.tgz" />
+        <id>http://pear.bear-project.net/get/BEAR-0.9.13.tgz</id>
+        <author>
+            <name>koriyama</name>
+        </author>
+        <updated>2013-04-02T03:40:25+02:00</updated>
+        <content>
+            
+BEAR.Saturday (for PHP 5.2)
+ 
+        </content>
+    </entry>    <entry>
         <title>BEAR 0.9.12 (beta)</title>
         <link href="http://pear.bear-project.net/get/BEAR-0.9.12.tgz" />
         <id>http://pear.bear-project.net/get/BEAR-0.9.12.tgz</id>
