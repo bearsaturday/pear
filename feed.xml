@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.bear-project.net</id>
-    <updated>2013-04-27T10:40:22+09:00</updated>
+    <updated>2013-07-19T07:57:22+02:00</updated>
     <title>BEAR PEAR channel Latest Releases</title>
     <link href="http://pear.bear-project.net/feed.xml" rel="self" />
     <author>
@@ -9,14 +9,15 @@
     </author>
 
     <entry>
-        <title>BEAR 0.9.15 (beta)</title>
-        <link href="http://pear.bear-project.net/get/BEAR-0.9.15.tgz" />
-        <id>http://pear.bear-project.net/get/BEAR-0.9.15.tgz</id>
+        <title>BEAR 0.9.16 (beta)</title>
+        <link href="http://pear.bear-project.net/get/BEAR-0.9.16.tgz" />
+        <id>http://pear.bear-project.net/get/BEAR-0.9.16.tgz</id>
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2013-04-27T01:39:29+09:00</updated>
+        <updated>2013-07-19T04:08:27+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.Saturday (for PHP 5.2)
  
@@ -28,8 +29,9 @@ BEAR.Saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2013-04-02T08:52:04+09:00</updated>
+        <updated>2013-04-02T08:52:04+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.Saturday (for PHP 5.2)
  
@@ -41,8 +43,9 @@ BEAR.Saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2013-04-02T03:40:25+09:00</updated>
+        <updated>2013-04-02T03:40:25+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.Saturday (for PHP 5.2)
  
@@ -54,8 +57,9 @@ BEAR.Saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2013-03-13T03:08:06+09:00</updated>
+        <updated>2013-03-13T03:08:06+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.Saturday (for PHP 5.2)
  
@@ -67,8 +71,9 @@ BEAR.Saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2013-02-19T07:13:32+09:00</updated>
+        <updated>2013-02-19T07:13:32+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.Saturday (for PHP 5.2)
  
@@ -80,8 +85,9 @@ BEAR.Saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2012-12-03T08:48:19+09:00</updated>
+        <updated>2012-12-03T08:48:19+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.saturday (for PHP 5.2)
  
@@ -93,8 +99,9 @@ BEAR.saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2012-11-30T03:20:14+09:00</updated>
+        <updated>2012-11-30T03:20:14+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.saturday (for PHP 5.2)
  
@@ -106,8 +113,9 @@ BEAR.saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2012-12-03T08:45:42+09:00</updated>
+        <updated>2012-12-03T08:45:42+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.saturday (for PHP 5.2)
  
@@ -119,8 +127,9 @@ BEAR.saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2012-11-30T02:23:10+09:00</updated>
+        <updated>2012-11-30T02:23:10+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR.saturday (for PHP 5.2)
  
@@ -132,8 +141,9 @@ BEAR.saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-01-21T11:39:39+09:00</updated>
+        <updated>2010-01-21T11:39:39+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -145,8 +155,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-01-05T17:27:07+09:00</updated>
+        <updated>2010-01-05T17:27:07+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -158,8 +169,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-01-05T16:42:39+09:00</updated>
+        <updated>2010-01-05T16:42:39+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -171,8 +183,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-12-22T20:03:04+09:00</updated>
+        <updated>2009-12-22T20:03:04+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -184,8 +197,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-12-07T18:07:32+09:00</updated>
+        <updated>2009-12-07T18:07:32+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -197,8 +211,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-12-01T22:41:50+09:00</updated>
+        <updated>2009-12-01T22:41:50+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -210,8 +225,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-11-17T22:03:13+09:00</updated>
+        <updated>2009-11-17T22:03:13+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -223,8 +239,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-11-09T01:41:01+09:00</updated>
+        <updated>2009-11-09T01:41:01+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -236,8 +253,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-11-05T02:21:44+09:00</updated>
+        <updated>2009-11-05T02:21:44+01:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -249,8 +267,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-10-13T20:38:32+09:00</updated>
+        <updated>2009-10-13T20:38:32+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -262,8 +281,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-09-22T15:45:55+09:00</updated>
+        <updated>2009-09-22T15:45:55+02:00</updated>
         <content>
+            BEAR is web application framework package.
             Initial release
         </content>
     </entry>    <entry>
@@ -273,8 +293,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-09-15T22:42:23+09:00</updated>
+        <updated>2009-09-15T22:42:23+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -286,8 +307,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-09-15T14:57:22+09:00</updated>
+        <updated>2009-09-15T14:57:22+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -299,8 +321,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-08-25T21:06:19+09:00</updated>
+        <updated>2009-08-25T21:06:19+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -312,8 +335,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-08-19T20:53:20+09:00</updated>
+        <updated>2009-08-19T20:53:20+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -325,8 +349,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-08-19T20:43:01+09:00</updated>
+        <updated>2009-08-19T20:43:01+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -338,8 +363,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-08-19T20:12:23+09:00</updated>
+        <updated>2009-08-19T20:12:23+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -351,8 +377,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-30T02:56:19+09:00</updated>
+        <updated>2009-07-30T02:56:19+02:00</updated>
         <content>
+            BEAR is web application framework package.
             Initial release
         </content>
     </entry>    <entry>
@@ -362,8 +389,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-29T18:04:45+09:00</updated>
+        <updated>2009-07-29T18:04:45+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -375,8 +403,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-17T21:30:27+09:00</updated>
+        <updated>2009-07-17T21:30:27+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 Initial release
  
@@ -388,8 +417,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-08T21:25:17+09:00</updated>
+        <updated>2009-07-08T21:25:17+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR PHP Framework Package
  
@@ -401,8 +431,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-07T20:15:30+09:00</updated>
+        <updated>2009-07-07T20:15:30+02:00</updated>
         <content>
+            BEAR is web application framework package.
             
 BEAR PHP Framework Package
  
@@ -414,8 +445,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-04-23T06:38:43+09:00</updated>
+        <updated>2009-04-23T06:38:43+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -425,8 +457,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-04-14T19:56:47+09:00</updated>
+        <updated>2009-04-14T19:56:47+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -436,8 +469,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-04-11T13:24:43+09:00</updated>
+        <updated>2009-04-11T13:24:43+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -447,8 +481,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-03-31T14:59:03+09:00</updated>
+        <updated>2009-03-31T14:59:03+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -458,8 +493,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-03-24T18:31:03+09:00</updated>
+        <updated>2009-03-24T18:31:03+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -469,8 +505,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-03-23T18:39:14+09:00</updated>
+        <updated>2009-03-23T18:39:14+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -480,8 +517,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-04-11T13:23:57+09:00</updated>
+        <updated>2009-04-11T13:23:57+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -491,8 +529,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-04-14T18:40:50+09:00</updated>
+        <updated>2009-04-14T18:40:50+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -502,8 +541,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-03-16T10:52:54+09:00</updated>
+        <updated>2009-03-16T10:52:54+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -513,8 +553,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-03-07T18:39:37+09:00</updated>
+        <updated>2009-03-07T18:39:37+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -524,8 +565,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-02-25T02:24:44+09:00</updated>
+        <updated>2009-02-25T02:24:44+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -535,8 +577,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-01-16T04:39:47+09:00</updated>
+        <updated>2009-01-16T04:39:47+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -546,8 +589,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-01-06T20:58:47+09:00</updated>
+        <updated>2009-01-06T20:58:47+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -557,8 +601,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-11-25T01:31:43+09:00</updated>
+        <updated>2008-11-25T01:31:43+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -568,8 +613,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-11-20T00:45:12+09:00</updated>
+        <updated>2008-11-20T00:45:12+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -579,8 +625,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-11-17T18:08:45+09:00</updated>
+        <updated>2008-11-17T18:08:45+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -590,8 +637,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-11-16T00:19:39+09:00</updated>
+        <updated>2008-11-16T00:19:39+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -601,8 +649,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-11-12T21:32:21+09:00</updated>
+        <updated>2008-11-12T21:32:21+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -612,8 +661,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-11-06T12:15:33+09:00</updated>
+        <updated>2008-11-06T12:15:33+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -623,8 +673,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-10-29T22:11:22+09:00</updated>
+        <updated>2008-10-29T22:11:22+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -634,8 +685,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-10-29T22:08:52+09:00</updated>
+        <updated>2008-10-29T22:08:52+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -645,8 +697,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-10-27T16:21:51+09:00</updated>
+        <updated>2008-10-27T16:21:51+01:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -656,8 +709,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-10-22T16:28:57+09:00</updated>
+        <updated>2008-10-22T16:28:57+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -667,8 +721,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-10-22T12:14:37+09:00</updated>
+        <updated>2008-10-22T12:14:37+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -678,8 +733,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-10-06T17:21:55+09:00</updated>
+        <updated>2008-10-06T17:21:55+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -689,8 +745,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-10-03T14:53:55+09:00</updated>
+        <updated>2008-10-03T14:53:55+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -700,8 +757,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-09-09T06:15:06+09:00</updated>
+        <updated>2008-09-09T06:15:06+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -711,8 +769,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-09-03T21:08:57+09:00</updated>
+        <updated>2008-09-03T21:08:57+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -722,8 +781,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2008-07-30T16:34:50+09:00</updated>
+        <updated>2008-07-30T16:34:50+02:00</updated>
         <content>
+            BEAR is web application framework package.
             BEAR PHP Framework Package
         </content>
     </entry>    <entry>
@@ -733,8 +793,9 @@ BEAR PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2012-09-21T05:59:54+09:00</updated>
+        <updated>2012-09-21T05:59:54+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Maintenance release
  
@@ -746,8 +807,9 @@ Maintenance release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-05-07T21:21:03+09:00</updated>
+        <updated>2010-05-07T21:21:03+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -759,8 +821,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-05-06T22:01:46+09:00</updated>
+        <updated>2010-05-06T22:01:46+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -772,8 +835,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-05-06T18:06:04+09:00</updated>
+        <updated>2010-05-06T18:06:04+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -785,8 +849,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-02-16T21:39:49+09:00</updated>
+        <updated>2010-02-16T21:39:49+01:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -798,8 +863,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-01-21T11:59:40+09:00</updated>
+        <updated>2010-01-21T11:59:40+01:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -811,8 +877,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-01-21T11:18:04+09:00</updated>
+        <updated>2010-01-21T11:18:04+01:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -824,8 +891,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2010-01-05T16:45:54+09:00</updated>
+        <updated>2010-01-05T16:45:54+01:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -837,8 +905,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-12-01T23:00:57+09:00</updated>
+        <updated>2009-12-01T23:00:57+01:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -850,8 +919,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-11-04T17:51:21+09:00</updated>
+        <updated>2009-11-04T17:51:21+01:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -863,8 +933,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-10-09T18:39:32+09:00</updated>
+        <updated>2009-10-09T18:39:32+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -876,8 +947,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-17T20:37:46+09:00</updated>
+        <updated>2009-07-17T20:37:46+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Panda PHP Framework Package
  
@@ -889,8 +961,9 @@ Panda PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-15T01:03:34+09:00</updated>
+        <updated>2009-07-15T01:03:34+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Panda PHP Framework Package
  
@@ -902,8 +975,9 @@ Panda PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-15T00:58:03+09:00</updated>
+        <updated>2009-07-15T00:58:03+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Panda PHP Framework Package
  
@@ -915,8 +989,9 @@ Panda PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-09-22T15:54:21+09:00</updated>
+        <updated>2009-09-22T15:54:21+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             Initial release
         </content>
     </entry>    <entry>
@@ -926,8 +1001,9 @@ Panda PHP Framework Package
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-09-15T18:32:53+09:00</updated>
+        <updated>2009-09-15T18:32:53+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -939,8 +1015,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-08-04T12:20:58+09:00</updated>
+        <updated>2009-08-04T12:20:58+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Initial release
  
@@ -952,8 +1029,9 @@ Initial release
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2009-07-07T11:23:11+09:00</updated>
+        <updated>2009-07-07T11:23:11+02:00</updated>
         <content>
+            Panda is PHP Error handler and debug/trace print utility.
             
 Panda PHP Framework Package
  
