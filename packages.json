@@ -1,15 +1,15 @@
 {
     "pear-bear\/BEAR": {
         "versions": {
-            "0.9.17": {
+            "0.9.18": {
                 "name": "pear-bear\/BEAR",
                 "description": "PHP Framework Package",
                 "dist": {
                     "type": "pear",
-                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.17.tgz"
+                    "url": "http:\/\/pear.bear-project.net\/get\/BEAR-0.9.18.tgz"
                 },
-                "version": "0.9.17",
-                "time": "2013-11-18T01:36:21+01:00",
+                "version": "0.9.18",
+                "time": "2013-12-02T09:19:16+01:00",
                 "require": {
                     "php": ">=5.2.0",
                     "pear-bear\/Panda": ">=0.3.38",
