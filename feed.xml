@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.bear-project.net</id>
-    <updated>2013-12-02T10:21:49+01:00</updated>
+    <updated>2014-01-06T11:22:35+01:00</updated>
     <title>BEAR PEAR channel Latest Releases</title>
     <link href="http://pear.bear-project.net/feed.xml" rel="self" />
     <author>
