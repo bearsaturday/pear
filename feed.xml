@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://bearsaturday.github.io/pear</id>
-    <updated>2015-06-19T05:54:10+02:00</updated>
+    <updated>2015-06-19T20:07:54+09:00</updated>
     <title>BEAR.Saturday PEAR channel Latest Releases</title>
     <link href="http://bearsaturday.github.io/pear/feed.xml" rel="self" />
     <author>
@@ -15,7 +15,7 @@
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2015-06-19T03:53:40+02:00</updated>
+        <updated>2015-06-19T03:53:40+09:00</updated>
         <content>
             BEAR is web application framework package.
             
@@ -29,11 +29,25 @@ BEAR.Saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2015-06-18T03:53:11+02:00</updated>
+        <updated>2015-06-18T03:53:11+09:00</updated>
         <content>
             BEAR is web application framework package.
             
 BEAR.Saturday (for PHP 5.2)
+ 
+        </content>
+    </entry>    <entry>
+        <title>Panda 0.3.41 (beta)</title>
+        <link href="http://bearsaturday.github.io/pear/get/Panda-0.3.41.tgz" />
+        <id>http://bearsaturday.github.io/pear/get/Panda-0.3.41.tgz</id>
+        <author>
+            <name>koriyama</name>
+        </author>
+        <updated>2015-06-19T11:06:25+09:00</updated>
+        <content>
+            Panda is PHP Error handler and debug/trace print utility.
+            
+Maintenance release
  
         </content>
     </entry>    <entry>
@@ -43,7 +57,7 @@ BEAR.Saturday (for PHP 5.2)
         <author>
             <name>koriyama</name>
         </author>
-        <updated>2015-06-18T05:32:20+02:00</updated>
+        <updated>2015-06-18T05:32:20+09:00</updated>
         <content>
             Panda is PHP Error handler and debug/trace print utility.
             
