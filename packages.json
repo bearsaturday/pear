@@ -182,6 +182,34 @@
     },
     "pear-bear\/Panda": {
         "versions": {
+            "0.3.43": {
+                "name": "pear-bear\/Panda",
+                "description": "Panda PHP Error handler",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/bearsaturday.github.io\/pear\/get\/Panda-0.3.43.tgz"
+                },
+                "version": "0.3.43",
+                "time": "2015-07-07T09:40:42+02:00",
+                "require": {
+                    "php": ">=5.2.0"
+                },
+                "authors": [
+                    {
+                        "name": "Koriyama",
+                        "email": "koriyama@users.sourceforge.jp",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "2": "Panda",
+                        "10": "tests\/Test\/Panda\/PandaTest.php",
+                        "11": "vendor",
+                        "17": "Panda.php"
+                    }
+                }
+            },
             "0.3.42": {
                 "name": "pear-bear\/Panda",
                 "description": "Panda PHP Error handler",
