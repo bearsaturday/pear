@@ -3,6 +3,11 @@
     <p>Panda</p>
     <c>bearsaturday.github.io/pear</c>
     <r>
+        <v>0.3.42</v>
+        <s>beta</s>
+        <m>5.2.0</m>
+    </r>
+    <r>
         <v>0.3.41</v>
         <s>beta</s>
         <m>5.2.0</m>
