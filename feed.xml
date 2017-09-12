@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://bearsaturday.github.io/pear</id>
-    <updated>2015-07-07T11:44:58+02:00</updated>
+    <updated>2017-09-12T07:33:53+02:00</updated>
     <title>BEAR.Saturday PEAR channel Latest Releases</title>
     <link href="http://bearsaturday.github.io/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,20 @@
     </author>
 
     <entry>
+        <title>BEAR 0.9.25 (beta)</title>
+        <link href="http://bearsaturday.github.io/pear/get/BEAR-0.9.25.tgz" />
+        <id>http://bearsaturday.github.io/pear/get/BEAR-0.9.25.tgz</id>
+        <author>
+            <name>koriyama</name>
+        </author>
+        <updated>2017-09-12T03:29:36+02:00</updated>
+        <content>
+            BEAR is web application framework package.
+            
+BEAR.Saturday (for PHP 5.2)
+ 
+        </content>
+    </entry>    <entry>
         <title>BEAR 0.9.24 (beta)</title>
         <link href="http://bearsaturday.github.io/pear/get/BEAR-0.9.24.tgz" />
         <id>http://bearsaturday.github.io/pear/get/BEAR-0.9.24.tgz</id>

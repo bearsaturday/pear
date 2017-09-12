@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/bear">BEAR</p>
+    <c>bearsaturday.github.io/pear</c>
+    <v>0.9.25</v>
+    <a>0.9.25</a>
+    <mp>5.2.0</mp>
+    <st>beta</st>
+    <l>The BSD License</l>
+    <m>koriyama</m>
+    <s>PHP Framework Package</s>
+    <d>BEAR is web application framework package.</d>
+    <da>2017-09-12 03:29:36</da>
+    <n>
+BEAR.Saturday (for PHP 5.2)
+ </n>
+    <f>4028501</f>
+    <g>http://bearsaturday.github.io/pear/get/BEAR-0.9.25</g>
+    <x xlink:href="package.0.9.25.xml"/>
+</r>
